@@ -165,6 +165,7 @@
     height: 210px;
     width: 210px;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 .food-remain{
     color: #b1b9d8;
@@ -384,8 +385,10 @@
     font-size: 30px;
 }
 .set5{
+    justify-content: space-between;
     margin-top: 16.05px;
     margin-left: 48px;
+    width: 671.88px;
 }
 .basic-recepie{
     background-size: cover;

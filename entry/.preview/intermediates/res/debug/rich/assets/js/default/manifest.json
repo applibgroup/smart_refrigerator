@@ -5,7 +5,9 @@
     "versionCode": 1000000,
     "minPlatformVersion": 6,
     "pages": [
-        "pages/index/index"
+        "pages/index/index",
+        "pages/recipie_block/recipie_block",
+        "pages/storage_list/storage_list"
     ],
     "deviceType": [
         "phone",

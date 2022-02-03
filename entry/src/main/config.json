@@ -48,7 +48,10 @@
     "js": [
       {
         "pages": [
-          "pages/index/index"
+          "pages/index/index",
+          "pages/recipie_block/recipie_block",
+          "pages/storage_list/storage_list",
+          "pages/percent_bar/percent_bar"
         ],
         "name": "default",
         "window": {

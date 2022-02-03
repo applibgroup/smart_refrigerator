@@ -258,7 +258,8 @@ module.exports = {
     "marginLeft": "16.1775px",
     "height": "210px",
     "width": "210px",
-    "flexDirection": "column"
+    "flexDirection": "column",
+    "paddingBottom": "20px"
   },
   ".food-remain": {
     "color": "#b1b9d8",
@@ -478,8 +479,10 @@ module.exports = {
     "fontSize": "30px"
   },
   ".set5": {
+    "justifyContent": "space-between",
     "marginTop": "16.05px",
-    "marginLeft": "48px"
+    "marginLeft": "48px",
+    "width": "671.88px"
   },
   ".basic-recepie": {
     "backgroundSize": "cover",
@@ -580,6 +583,128 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.css ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  ".set1_sub2": {
+    "justifyContent": "space-between",
+    "marginLeft": "18.37px",
+    "marginRight": "30px",
+    "width": "172px"
+  },
+  ".txt1": {
+    "color": "#FFFFFF",
+    "fontSize": "13px"
+  },
+  ".v-base": {
+    "marginTop": "10px",
+    "marginLeft": "18.37px",
+    "backgroundSize": "cover",
+    "width": "172.72px",
+    "height": "8.39px"
+  }
+}
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.css":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css ***!
+  \*****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  ".container": {
+    "flexDirection": "column",
+    "backgroundSize": "cover",
+    "backgroundPosition": "center",
+    "width": "100%",
+    "height": "100%"
+  },
+  ".basic-recepie": {
+    "backgroundSize": "cover",
+    "height": "217.34px",
+    "width": "217.34px"
+  },
+  ".recp-img": {
+    "marginTop": "22.45px",
+    "marginLeft": "13.98px",
+    "width": "99.68px",
+    "height": "99.68px"
+  },
+  ".recp-img-fav": {
+    "width": "22.31px",
+    "height": "18.82px",
+    "marginLeft": "59.85px",
+    "marginTop": "25.03px"
+  },
+  ".recp-name": {
+    "marginLeft": "20.93px",
+    "marginTop": "16.25px",
+    "fontSize": "20px"
+  },
+  ".clock": {
+    "marginTop": "16.87px",
+    "marginLeft": "20.54px",
+    "width": "18px",
+    "height": "18px"
+  },
+  ".recp-settings": {
+    "justifyContent": "space-between",
+    "marginTop": "16.87px",
+    "marginRight": "20.54px",
+    "marginLeft": "8.27px",
+    "width": "150.88px"
+  },
+  ".recp-time": {
+    "color": "#999999",
+    "fontSize": "13px"
+  },
+  ".recp-type": {
+    "color": "#999999",
+    "fontSize": "13px"
+  }
+}
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.css":
+/*!***************************************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css ***!
+  \***************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  ".st-item": {
+    "width": "80px"
+  },
+  ".st-item-image": {
+    "width": "77.62px",
+    "height": "77.62px"
+  },
+  ".st-item-name": {
+    "textAlign": "center",
+    "marginTop": "9.16px",
+    "fontSize": "12px",
+    "color": "#FFFFFF"
+  },
+  ".st-item-weight": {
+    "textAlign": "center",
+    "marginTop": "4.41px",
+    "color": "#b1b9d8",
+    "fontSize": "13px"
+  }
+}
+
+/***/ }),
+
 /***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.hml":
 /*!****************************************************************************************************************************************!*\
   !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/index/index.hml ***!
@@ -589,7 +714,7 @@ module.exports = {
 
 module.exports = {
   "attr": {
-    "debugLine": "pages/index/index:1",
+    "debugLine": "pages/index/index:4",
     "className": "container"
   },
   "type": "div",
@@ -602,7 +727,7 @@ module.exports = {
   "children": [
     {
       "attr": {
-        "debugLine": "pages/index/index:2",
+        "debugLine": "pages/index/index:5",
         "className": "status-bar"
       },
       "type": "div",
@@ -615,7 +740,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:3",
+            "debugLine": "pages/index/index:6",
             "className": "wifi",
             "src": function () {return this.wifi}
           },
@@ -626,7 +751,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:4",
+            "debugLine": "pages/index/index:7",
             "className": "apps",
             "src": function () {return this.apps}
           },
@@ -637,7 +762,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:5",
+            "debugLine": "pages/index/index:8",
             "className": "lock",
             "src": function () {return this.lock}
           },
@@ -648,7 +773,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:6",
+            "debugLine": "pages/index/index:9",
             "className": "time",
             "value": function () {return this.time}
           },
@@ -661,7 +786,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:9",
+        "debugLine": "pages/index/index:12",
         "className": "user-name",
         "value": function () {return decodeURI('Hey%20') + (this.username)}
       },
@@ -672,7 +797,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:11",
+        "debugLine": "pages/index/index:14",
         "className": "set1"
       },
       "type": "div",
@@ -685,7 +810,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:12",
+            "debugLine": "pages/index/index:15",
             "className": "time-bg"
           },
           "type": "div",
@@ -698,13 +823,13 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:13"
+                "debugLine": "pages/index/index:16"
               },
               "type": "div",
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:14",
+                    "debugLine": "pages/index/index:17",
                     "className": "location-icon",
                     "src": function () {return this.location}
                   },
@@ -715,7 +840,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:15"
+                    "debugLine": "pages/index/index:18"
                   },
                   "type": "div",
                   "style": {
@@ -725,7 +850,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:16",
+                        "debugLine": "pages/index/index:19",
                         "className": "location-city",
                         "value": function () {return this.loaction_city}
                       },
@@ -736,7 +861,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:17",
+                        "debugLine": "pages/index/index:20",
                         "className": "weather",
                         "src": function () {return this.weather}
                       },
@@ -751,7 +876,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:20",
+                "debugLine": "pages/index/index:23",
                 "className": "time-txt",
                 "value": function () {return this.time}
               },
@@ -762,7 +887,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:21",
+                "debugLine": "pages/index/index:24",
                 "className": "day-date",
                 "value": function () {return this.day_date}
               },
@@ -773,7 +898,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:22",
+                "debugLine": "pages/index/index:25",
                 "className": "temp-page"
               },
               "type": "div",
@@ -783,7 +908,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:23",
+                    "debugLine": "pages/index/index:26",
                     "className": "temp",
                     "value": function () {return this.temp_red}
                   },
@@ -794,46 +919,10 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:24"
+                    "debugLine": "pages/index/index:27"
                   },
                   "type": "div",
                   "children": [
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:25",
-                        "className": "page",
-                        "src": function () {return this.scroll_inactive}
-                      },
-                      "type": "image",
-                      "classList": [
-                        "page"
-                      ]
-                    },
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:26",
-                        "className": "page",
-                        "src": function () {return this.scroll_inactive}
-                      },
-                      "type": "image",
-                      "classList": [
-                        "page"
-                      ],
-                      "style": {
-                        "imageFill": "#FFFFFF"
-                      }
-                    },
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:27",
-                        "className": "page",
-                        "src": function () {return this.scroll_inactive}
-                      },
-                      "type": "image",
-                      "classList": [
-                        "page"
-                      ]
-                    },
                     {
                       "attr": {
                         "debugLine": "pages/index/index:28",
@@ -854,6 +943,42 @@ module.exports = {
                       "type": "image",
                       "classList": [
                         "page"
+                      ],
+                      "style": {
+                        "imageFill": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "attr": {
+                        "debugLine": "pages/index/index:30",
+                        "className": "page",
+                        "src": function () {return this.scroll_inactive}
+                      },
+                      "type": "image",
+                      "classList": [
+                        "page"
+                      ]
+                    },
+                    {
+                      "attr": {
+                        "debugLine": "pages/index/index:31",
+                        "className": "page",
+                        "src": function () {return this.scroll_inactive}
+                      },
+                      "type": "image",
+                      "classList": [
+                        "page"
+                      ]
+                    },
+                    {
+                      "attr": {
+                        "debugLine": "pages/index/index:32",
+                        "className": "page",
+                        "src": function () {return this.scroll_inactive}
+                      },
+                      "type": "image",
+                      "classList": [
+                        "page"
                       ]
                     }
                   ]
@@ -864,7 +989,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:34",
+            "debugLine": "pages/index/index:37",
             "className": "music-bg"
           },
           "type": "div",
@@ -878,7 +1003,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:35",
+                "debugLine": "pages/index/index:38",
                 "className": "dreams-bg",
                 "src": function () {return this.dreams_img}
               },
@@ -889,7 +1014,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:36",
+                "debugLine": "pages/index/index:39",
                 "className": "song-name",
                 "value": function () {return this.song_name}
               },
@@ -900,7 +1025,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:37",
+                "debugLine": "pages/index/index:40",
                 "className": "song-genre",
                 "value": function () {return this.song_genre}
               },
@@ -911,7 +1036,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:38",
+                "debugLine": "pages/index/index:41",
                 "className": "set1_sub"
               },
               "type": "div",
@@ -921,7 +1046,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:39",
+                    "debugLine": "pages/index/index:42",
                     "className": "shuffle",
                     "src": function () {return this.shuffle}
                   },
@@ -932,7 +1057,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:40",
+                    "debugLine": "pages/index/index:43",
                     "className": "back",
                     "src": function () {return this.back}
                   },
@@ -943,7 +1068,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:41",
+                    "debugLine": "pages/index/index:44",
                     "className": "play",
                     "src": function () {return this.play}
                   },
@@ -954,7 +1079,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:42",
+                    "debugLine": "pages/index/index:45",
                     "className": "next",
                     "src": function () {return this.next}
                   },
@@ -965,7 +1090,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:43",
+                    "debugLine": "pages/index/index:46",
                     "className": "range",
                     "src": function () {return this.range}
                   },
@@ -980,7 +1105,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:46",
+            "debugLine": "pages/index/index:49",
             "className": "food-remaining"
           },
           "type": "div",
@@ -993,7 +1118,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:47",
+                "debugLine": "pages/index/index:50",
                 "className": "food-remain",
                 "value": function () {return this.food_remain}
               },
@@ -1004,180 +1129,30 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:48",
-                "className": "set1_sub2"
+                "debugLine": "pages/index/index:51",
+                "product_name": "Vegetables",
+                "product_percent": "72%",
+                "percent_color": function () {return this.green_range}
               },
-              "type": "div",
-              "classList": [
-                "set1_sub2"
-              ],
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:49",
-                    "className": "txt1",
-                    "value": function () {return this.vege}
-                  },
-                  "type": "text",
-                  "classList": [
-                    "txt1"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:50",
-                    "className": "txt1",
-                    "value": function () {return this.vege_percent}
-                  },
-                  "type": "text",
-                  "classList": [
-                    "txt1"
-                  ]
-                }
-              ]
+              "type": "percentage-bar"
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:52",
-                "className": "v-base"
+                "debugLine": "pages/index/index:53",
+                "product_name": "Fruits",
+                "product_percent": "50%",
+                "percent_color": function () {return this.violet_range}
               },
-              "type": "div",
-              "classList": [
-                "v-base"
-              ],
-              "style": {
-                "backgroundImage": function () {return this.vegetables_range_white}
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:53",
-                    "src": function () {return this.green_range}
-                  },
-                  "type": "image",
-                  "style": {
-                    "width": function () {return this.vege_percent}
-                  }
-                }
-              ]
+              "type": "percentage-bar"
             },
             {
               "attr": {
                 "debugLine": "pages/index/index:55",
-                "className": "set1_sub2"
+                "product_name": "Meat",
+                "product_percent": "20%",
+                "percent_color": function () {return this.orange_range}
               },
-              "type": "div",
-              "classList": [
-                "set1_sub2"
-              ],
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:56",
-                    "className": "txt1",
-                    "value": function () {return this.fruits}
-                  },
-                  "type": "text",
-                  "classList": [
-                    "txt1"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:57",
-                    "className": "txt1",
-                    "value": function () {return this.fruit_percent}
-                  },
-                  "type": "text",
-                  "classList": [
-                    "txt1"
-                  ]
-                }
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:59",
-                "className": "f-base"
-              },
-              "type": "div",
-              "classList": [
-                "f-base"
-              ],
-              "style": {
-                "backgroundImage": function () {return this.vegetables_range_white}
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:60",
-                    "src": function () {return this.violet_range}
-                  },
-                  "type": "image",
-                  "style": {
-                    "width": function () {return this.fruit_percent}
-                  }
-                }
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:62",
-                "className": "set1_sub2"
-              },
-              "type": "div",
-              "classList": [
-                "set1_sub2"
-              ],
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:63",
-                    "className": "txt1",
-                    "value": function () {return this.meat}
-                  },
-                  "type": "text",
-                  "classList": [
-                    "txt1"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:64",
-                    "className": "txt1",
-                    "value": function () {return this.meat_percent}
-                  },
-                  "type": "text",
-                  "classList": [
-                    "txt1"
-                  ]
-                }
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:66",
-                "className": "m-base"
-              },
-              "type": "div",
-              "classList": [
-                "m-base"
-              ],
-              "style": {
-                "backgroundImage": function () {return this.vegetables_range_white}
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:67",
-                    "src": function () {return this.orange_range}
-                  },
-                  "type": "image",
-                  "style": {
-                    "width": function () {return this.meat_percent}
-                  }
-                }
-              ]
+              "type": "percentage-bar"
             }
           ]
         }
@@ -1185,7 +1160,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:72",
+        "debugLine": "pages/index/index:61",
         "className": "storage-settings",
         "value": function () {return this.storage_settings}
       },
@@ -1196,7 +1171,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:73",
+        "debugLine": "pages/index/index:62",
         "className": "set2"
       },
       "type": "div",
@@ -1209,7 +1184,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:74",
+            "debugLine": "pages/index/index:63",
             "className": "storage-tab"
           },
           "type": "div",
@@ -1223,7 +1198,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:75",
+                "debugLine": "pages/index/index:64",
                 "className": "your-storage-markers"
               },
               "type": "div",
@@ -1236,7 +1211,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:76",
+                    "debugLine": "pages/index/index:65",
                     "className": "storage-txt-1",
                     "value": function () {return this.your_storage}
                   },
@@ -1247,13 +1222,13 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:77"
+                    "debugLine": "pages/index/index:66"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:78",
+                        "debugLine": "pages/index/index:67",
                         "className": "view-icon",
                         "src": function () {return this.view_icon}
                       },
@@ -1264,7 +1239,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:79",
+                        "debugLine": "pages/index/index:68",
                         "className": "view-txt",
                         "value": function () {return this.view_text}
                       },
@@ -1275,7 +1250,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:80",
+                        "debugLine": "pages/index/index:69",
                         "className": "add-icon",
                         "src": function () {return this.add_icon}
                       },
@@ -1286,7 +1261,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:81",
+                        "debugLine": "pages/index/index:70",
                         "className": "add-txt",
                         "value": function () {return this.add_text}
                       },
@@ -1301,7 +1276,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:84"
+                "debugLine": "pages/index/index:73"
               },
               "type": "div",
               "style": {
@@ -1311,266 +1286,67 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:85",
+                    "debugLine": "pages/index/index:74",
                     "id": "List"
                   },
                   "type": "list",
                   "id": "List",
                   "style": {
-                    "flexDirection": "row"
+                    "flexDirection": "row",
+                    "paddingRight": "15px"
                   },
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:86",
+                        "debugLine": "pages/index/index:75",
                         "type": "common"
                       },
                       "type": "list-item",
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:87",
-                            "className": "st-item"
+                            "debugLine": "pages/index/index:76",
+                            "st_item_image": function () {return this.st_item_1},
+                            "st_item_name": function () {return this.st_item_1_name},
+                            "st_item_weight": function () {return this.st_item_1_weight}
                           },
-                          "type": "div",
-                          "classList": [
-                            "st-item"
-                          ],
-                          "style": {
-                            "marginLeft": "20px",
-                            "flexDirection": "column"
-                          },
-                          "children": [
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:88",
-                                "className": "st-item-image",
-                                "src": function () {return this.st_item_1}
-                              },
-                              "type": "image",
-                              "classList": [
-                                "st-item-image"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:89",
-                                "className": "st-item-name",
-                                "value": function () {return this.st_item_1_name}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-name"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:90",
-                                "className": "st-item-weight",
-                                "value": function () {return this.st_item_1_weight}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-weight"
-                              ]
-                            }
-                          ]
+                          "type": "storage-list"
                         },
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:92",
-                            "className": "st-item"
+                            "debugLine": "pages/index/index:78",
+                            "st_item_image": function () {return this.st_item_2},
+                            "st_item_name": function () {return this.st_item_2_name},
+                            "st_item_weight": function () {return this.st_item_2_weight}
                           },
-                          "type": "div",
-                          "classList": [
-                            "st-item"
-                          ],
-                          "style": {
-                            "marginLeft": "30px",
-                            "flexDirection": "column"
-                          },
-                          "children": [
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:93",
-                                "className": "st-item-image",
-                                "src": function () {return this.st_item_2}
-                              },
-                              "type": "image",
-                              "classList": [
-                                "st-item-image"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:94",
-                                "className": "st-item-name",
-                                "value": function () {return this.st_item_2_name}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-name"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:95",
-                                "className": "st-item-weight",
-                                "value": function () {return this.st_item_2_weight}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-weight"
-                              ]
-                            }
-                          ]
+                          "type": "storage-list"
                         },
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:97",
-                            "className": "st-item"
+                            "debugLine": "pages/index/index:80",
+                            "st_item_image": function () {return this.st_item_3},
+                            "st_item_name": function () {return this.st_item_3_name},
+                            "st_item_weight": function () {return this.st_item_3_weight}
                           },
-                          "type": "div",
-                          "classList": [
-                            "st-item"
-                          ],
-                          "style": {
-                            "marginLeft": "30px",
-                            "flexDirection": "column"
-                          },
-                          "children": [
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:98",
-                                "className": "st-item-image",
-                                "src": function () {return this.st_item_3}
-                              },
-                              "type": "image",
-                              "classList": [
-                                "st-item-image"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:99",
-                                "className": "st-item-name",
-                                "value": function () {return this.st_item_3_name}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-name"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:100",
-                                "className": "st-item-weight",
-                                "value": function () {return this.st_item_3_weight}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-weight"
-                              ]
-                            }
-                          ]
+                          "type": "storage-list"
                         },
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:102",
-                            "className": "st-item"
+                            "debugLine": "pages/index/index:82",
+                            "st_item_image": function () {return this.st_item_4},
+                            "st_item_name": function () {return this.st_item_4_name},
+                            "st_item_weight": function () {return this.st_item_4_weight}
                           },
-                          "type": "div",
-                          "classList": [
-                            "st-item"
-                          ],
-                          "style": {
-                            "marginLeft": "30px",
-                            "flexDirection": "column"
-                          },
-                          "children": [
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:103",
-                                "className": "st-item-image",
-                                "src": function () {return this.st_item_4}
-                              },
-                              "type": "image",
-                              "classList": [
-                                "st-item-image"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:104",
-                                "className": "st-item-name",
-                                "value": function () {return this.st_item_4_name}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-name"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:105",
-                                "className": "st-item-weight",
-                                "value": function () {return this.st_item_4_weight}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-weight"
-                              ]
-                            }
-                          ]
+                          "type": "storage-list"
                         },
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:107",
-                            "className": "st-item"
+                            "debugLine": "pages/index/index:84",
+                            "st_item_image": function () {return this.st_item_5},
+                            "st_item_name": function () {return this.st_item_5_name},
+                            "st_item_weight": function () {return this.st_item_5_weight}
                           },
-                          "type": "div",
-                          "classList": [
-                            "st-item"
-                          ],
-                          "style": {
-                            "marginLeft": "30px",
-                            "flexDirection": "column"
-                          },
-                          "children": [
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:108",
-                                "className": "st-item-image",
-                                "src": function () {return this.st_item_5}
-                              },
-                              "type": "image",
-                              "classList": [
-                                "st-item-image"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:109",
-                                "className": "st-item-name",
-                                "value": function () {return this.st_item_5_name}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-name"
-                              ]
-                            },
-                            {
-                              "attr": {
-                                "debugLine": "pages/index/index:110",
-                                "className": "st-item-weight",
-                                "value": function () {return this.st_item_5_weight}
-                              },
-                              "type": "text",
-                              "classList": [
-                                "st-item-weight"
-                              ]
-                            }
-                          ]
+                          "type": "storage-list"
                         }
                       ]
                     }
@@ -1582,7 +1358,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:117",
+            "debugLine": "pages/index/index:91",
             "className": "help"
           },
           "type": "div",
@@ -1596,7 +1372,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:118",
+                "debugLine": "pages/index/index:92",
                 "className": "audio-assist1",
                 "value": function () {return this.audio_assist1}
               },
@@ -1607,7 +1383,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:119",
+                "debugLine": "pages/index/index:93",
                 "className": "mic",
                 "src": function () {return this.microphone}
               },
@@ -1618,7 +1394,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:120",
+                "debugLine": "pages/index/index:94",
                 "className": "audio-assist2",
                 "value": function () {return this.audio_assist2}
               },
@@ -1633,7 +1409,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:124",
+        "debugLine": "pages/index/index:98",
         "className": "set3"
       },
       "type": "div",
@@ -1646,7 +1422,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:125",
+            "debugLine": "pages/index/index:99",
             "id": "List"
           },
           "type": "list",
@@ -1657,14 +1433,14 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:126",
+                "debugLine": "pages/index/index:100",
                 "type": "common"
               },
               "type": "list-item",
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:127",
+                    "debugLine": "pages/index/index:101",
                     "className": "refri-door"
                   },
                   "type": "div",
@@ -1678,7 +1454,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:128",
+                        "debugLine": "pages/index/index:102",
                         "className": "refri-door-text",
                         "value": function () {return this.door_text}
                       },
@@ -1689,7 +1465,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:129",
+                        "debugLine": "pages/index/index:103",
                         "className": "refri-door-status",
                         "value": function () {return this.door_status}
                       },
@@ -1700,7 +1476,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:130",
+                        "debugLine": "pages/index/index:104",
                         "className": "refri-door-status-button"
                       },
                       "type": "div",
@@ -1714,7 +1490,7 @@ module.exports = {
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:131",
+                            "debugLine": "pages/index/index:105",
                             "className": "refri-door-status-button-txt",
                             "value": function () {return this.door_status_toggle}
                           },
@@ -1729,7 +1505,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:134",
+                    "debugLine": "pages/index/index:108",
                     "className": "superfreeze"
                   },
                   "type": "div",
@@ -1742,7 +1518,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:135",
+                        "debugLine": "pages/index/index:109",
                         "className": "refri-door-text",
                         "value": "Superfreeze"
                       },
@@ -1753,13 +1529,13 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:136"
+                        "debugLine": "pages/index/index:110"
                       },
                       "type": "div",
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:137",
+                            "debugLine": "pages/index/index:111",
                             "className": "superfreeze-toggle",
                             "value": function () {return this.superfreeze_toggle_txt}
                           },
@@ -1774,7 +1550,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:140",
+                    "debugLine": "pages/index/index:114",
                     "className": "bottom-left-box"
                   },
                   "type": "div",
@@ -1787,7 +1563,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:141",
+                        "debugLine": "pages/index/index:115",
                         "className": "refri-door-text",
                         "value": "Bottom Box Left"
                       },
@@ -1798,13 +1574,13 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:142"
+                        "debugLine": "pages/index/index:116"
                       },
                       "type": "div",
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:143",
+                            "debugLine": "pages/index/index:117",
                             "className": "bottom-left-box-toggle",
                             "value": function () {return this.bottom_box_left_toggle_text}
                           },
@@ -1819,7 +1595,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:146",
+                    "debugLine": "pages/index/index:120",
                     "className": "bottom-right-box"
                   },
                   "type": "div",
@@ -1832,7 +1608,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:147",
+                        "debugLine": "pages/index/index:121",
                         "className": "refri-door-text",
                         "value": "Bottom Box Right"
                       },
@@ -1843,13 +1619,13 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:148"
+                        "debugLine": "pages/index/index:122"
                       },
                       "type": "div",
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:149",
+                            "debugLine": "pages/index/index:123",
                             "className": "bottom-right-box-toggle",
                             "value": function () {return this.bottom_box_right_toggle_text}
                           },
@@ -1864,7 +1640,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:152",
+                    "debugLine": "pages/index/index:126",
                     "className": "crisp-fresh"
                   },
                   "type": "div",
@@ -1877,7 +1653,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:153",
+                        "debugLine": "pages/index/index:127",
                         "className": "refri-door-text",
                         "value": "Crisp Fresh"
                       },
@@ -1888,13 +1664,13 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:154"
+                        "debugLine": "pages/index/index:128"
                       },
                       "type": "div",
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:155",
+                            "debugLine": "pages/index/index:129",
                             "className": "crisp-fresh-toggle",
                             "value": function () {return this.crisp_fresh_text}
                           },
@@ -1915,7 +1691,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:162",
+        "debugLine": "pages/index/index:136",
         "className": "set4"
       },
       "type": "div",
@@ -1925,7 +1701,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:163",
+            "debugLine": "pages/index/index:137",
             "className": "{{dinner-text}}",
             "value": function () {return this.dinner_text}
           },
@@ -1936,7 +1712,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:166",
+        "debugLine": "pages/index/index:140",
         "className": "set5"
       },
       "type": "div",
@@ -1946,359 +1722,42 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:167",
-            "className": "basic-recepie"
+            "debugLine": "pages/index/index:141",
+            "user_reaction": "true",
+            "recp_name": "Vada",
+            "recp_type": "Starters",
+            "time_recp": "30mins",
+            "recp_image": function () {return this.recp_1}
           },
-          "type": "div",
-          "classList": [
-            "basic-recepie"
-          ],
-          "style": {
-            "backgroundImage": function () {return this.recepie_bg},
-            "flexDirection": "column"
-          },
-          "children": [
-            {
-              "attr": {
-                "debugLine": "pages/index/index:168"
-              },
-              "type": "div",
-              "style": {
-                "flexDirection": "row"
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:169",
-                    "className": "recp-img",
-                    "src": function () {return this.recp_1}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "recp-img"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:170",
-                    "className": "recp-img-fav",
-                    "src": function () {return this.favourite_active}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "recp-img-fav"
-                  ]
-                }
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:172",
-                "className": "recp-name",
-                "value": function () {return this.recp1}
-              },
-              "type": "text",
-              "classList": [
-                "recp-name"
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:173"
-              },
-              "type": "div",
-              "style": {
-                "flexDirection": "row"
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:174",
-                    "className": "clock",
-                    "src": function () {return this.clock}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "clock"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:175",
-                    "className": "recp-settings"
-                  },
-                  "type": "div",
-                  "classList": [
-                    "recp-settings"
-                  ],
-                  "children": [
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:176",
-                        "className": "recp-time",
-                        "value": function () {return this.time_recp1}
-                      },
-                      "type": "text",
-                      "classList": [
-                        "recp-time"
-                      ]
-                    },
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:177",
-                        "className": "recp-type",
-                        "value": function () {return this.recp_type1}
-                      },
-                      "type": "text",
-                      "classList": [
-                        "recp-type"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "recipie-compnent"
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:181",
-            "className": "basic-recepie"
+            "debugLine": "pages/index/index:143",
+            "user_reaction": "false",
+            "recp_name": "Meals",
+            "recp_type": "Main Course",
+            "time_recp": "45mins",
+            "recp_image": function () {return this.recp_2}
           },
-          "type": "div",
-          "classList": [
-            "basic-recepie"
-          ],
-          "style": {
-            "backgroundImage": function () {return this.recepie_bg},
-            "marginLeft": "9.93px",
-            "flexDirection": "column"
-          },
-          "children": [
-            {
-              "attr": {
-                "debugLine": "pages/index/index:182"
-              },
-              "type": "div",
-              "style": {
-                "flexDirection": "row"
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:183",
-                    "className": "recp-img",
-                    "src": function () {return this.recp_2}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "recp-img"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:184",
-                    "className": "recp-img-fav",
-                    "src": function () {return this.favourite_inactive}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "recp-img-fav"
-                  ]
-                }
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:186",
-                "className": "recp-name",
-                "value": function () {return this.recp2}
-              },
-              "type": "text",
-              "classList": [
-                "recp-name"
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:187"
-              },
-              "type": "div",
-              "style": {
-                "flexDirection": "row"
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:188",
-                    "className": "clock",
-                    "src": function () {return this.clock}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "clock"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:189",
-                    "className": "recp-settings"
-                  },
-                  "type": "div",
-                  "classList": [
-                    "recp-settings"
-                  ],
-                  "children": [
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:190",
-                        "className": "recp-time",
-                        "value": function () {return this.time_recp2}
-                      },
-                      "type": "text",
-                      "classList": [
-                        "recp-time"
-                      ]
-                    },
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:191",
-                        "className": "recp-type",
-                        "value": function () {return this.recp_type2}
-                      },
-                      "type": "text",
-                      "classList": [
-                        "recp-type"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "recipie-compnent"
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:195",
-            "className": "basic-recepie"
+            "debugLine": "pages/index/index:145",
+            "user_reaction": "false",
+            "recp_name": "Dosa",
+            "recp_type": "Main Course",
+            "time_recp": "15mins",
+            "recp_image": function () {return this.recp_3}
           },
-          "type": "div",
-          "classList": [
-            "basic-recepie"
-          ],
-          "style": {
-            "backgroundImage": function () {return this.recepie_bg},
-            "marginLeft": "9.93px",
-            "flexDirection": "column"
-          },
-          "children": [
-            {
-              "attr": {
-                "debugLine": "pages/index/index:196"
-              },
-              "type": "div",
-              "style": {
-                "flexDirection": "row"
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:197",
-                    "className": "recp-img",
-                    "src": function () {return this.recp_3}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "recp-img"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:198",
-                    "className": "recp-img-fav",
-                    "src": function () {return this.favourite_inactive}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "recp-img-fav"
-                  ]
-                }
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:200",
-                "className": "recp-name",
-                "value": function () {return this.recp3}
-              },
-              "type": "text",
-              "classList": [
-                "recp-name"
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:201"
-              },
-              "type": "div",
-              "style": {
-                "flexDirection": "row"
-              },
-              "children": [
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:202",
-                    "className": "clock",
-                    "src": function () {return this.clock}
-                  },
-                  "type": "image",
-                  "classList": [
-                    "clock"
-                  ]
-                },
-                {
-                  "attr": {
-                    "debugLine": "pages/index/index:203",
-                    "className": "recp-settings"
-                  },
-                  "type": "div",
-                  "classList": [
-                    "recp-settings"
-                  ],
-                  "children": [
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:204",
-                        "className": "recp-time",
-                        "value": function () {return this.time_recp3}
-                      },
-                      "type": "text",
-                      "classList": [
-                        "recp-time"
-                      ]
-                    },
-                    {
-                      "attr": {
-                        "debugLine": "pages/index/index:205",
-                        "className": "recp-type",
-                        "value": function () {return this.recp_type3}
-                      },
-                      "type": "text",
-                      "classList": [
-                        "recp-type"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "recipie-compnent"
         }
       ]
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:210",
+        "debugLine": "pages/index/index:150",
         "className": "set6"
       },
       "type": "div",
@@ -2312,7 +1771,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:211"
+            "debugLine": "pages/index/index:151"
           },
           "type": "div",
           "style": {
@@ -2321,7 +1780,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:212",
+                "debugLine": "pages/index/index:152",
                 "className": "home-icon",
                 "src": function () {return this.home_icon}
               },
@@ -2332,7 +1791,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:213",
+                "debugLine": "pages/index/index:153",
                 "className": "home-txt",
                 "value": function () {return this.home_txt}
               },
@@ -2345,7 +1804,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:215"
+            "debugLine": "pages/index/index:155"
           },
           "type": "div",
           "style": {
@@ -2354,7 +1813,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:216",
+                "debugLine": "pages/index/index:156",
                 "className": "storage-icon",
                 "src": function () {return this.storage_icon}
               },
@@ -2365,7 +1824,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:217",
+                "debugLine": "pages/index/index:157",
                 "className": "storage-txt",
                 "value": function () {return this.storage_txt}
               },
@@ -2378,7 +1837,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:219"
+            "debugLine": "pages/index/index:159"
           },
           "type": "div",
           "style": {
@@ -2387,7 +1846,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:220",
+                "debugLine": "pages/index/index:160",
                 "className": "music-icon",
                 "src": function () {return this.music_icon}
               },
@@ -2398,7 +1857,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:221",
+                "debugLine": "pages/index/index:161",
                 "className": "music-txt",
                 "value": function () {return this.music_txt}
               },
@@ -2411,7 +1870,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:223"
+            "debugLine": "pages/index/index:163"
           },
           "type": "div",
           "style": {
@@ -2420,7 +1879,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:224",
+                "debugLine": "pages/index/index:164",
                 "className": "settings-icon",
                 "src": function () {return this.settings_icon}
               },
@@ -2431,7 +1890,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:225",
+                "debugLine": "pages/index/index:165",
                 "className": "settings-txt",
                 "value": function () {return this.settings_txt}
               },
@@ -2446,6 +1905,352 @@ module.exports = {
     }
   ]
 }
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.hml":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "attr": {
+    "debugLine": "pages/percent_bar/percent_bar:1"
+  },
+  "type": "div",
+  "style": {
+    "flexDirection": "column"
+  },
+  "children": [
+    {
+      "attr": {
+        "debugLine": "pages/percent_bar/percent_bar:2",
+        "className": "set1_sub2"
+      },
+      "type": "div",
+      "classList": [
+        "set1_sub2"
+      ],
+      "children": [
+        {
+          "attr": {
+            "debugLine": "pages/percent_bar/percent_bar:3",
+            "className": "txt1",
+            "value": function () {return this.product_name}
+          },
+          "type": "text",
+          "classList": [
+            "txt1"
+          ]
+        },
+        {
+          "attr": {
+            "debugLine": "pages/percent_bar/percent_bar:4",
+            "className": "txt1",
+            "value": function () {return this.product_percent}
+          },
+          "type": "text",
+          "classList": [
+            "txt1"
+          ]
+        }
+      ]
+    },
+    {
+      "attr": {
+        "debugLine": "pages/percent_bar/percent_bar:6",
+        "className": "v-base"
+      },
+      "type": "div",
+      "classList": [
+        "v-base"
+      ],
+      "style": {
+        "backgroundImage": function () {return this.bg_bar}
+      },
+      "children": [
+        {
+          "attr": {
+            "debugLine": "pages/percent_bar/percent_bar:7",
+            "src": function () {return this.percent_color}
+          },
+          "type": "image",
+          "style": {
+            "width": function () {return this.product_percent}
+          }
+        }
+      ]
+    }
+  ]
+}
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "attr": {
+    "debugLine": "pages/recipie_block/recipie_block:1",
+    "className": "basic-recepie"
+  },
+  "type": "div",
+  "classList": [
+    "basic-recepie"
+  ],
+  "style": {
+    "backgroundImage": function () {return this.recepie_bg},
+    "flexDirection": "column"
+  },
+  "children": [
+    {
+      "attr": {
+        "debugLine": "pages/recipie_block/recipie_block:2"
+      },
+      "type": "div",
+      "style": {
+        "flexDirection": "row"
+      },
+      "children": [
+        {
+          "attr": {
+            "debugLine": "pages/recipie_block/recipie_block:3",
+            "className": "recp-img",
+            "src": function () {return this.recp_image}
+          },
+          "type": "image",
+          "classList": [
+            "recp-img"
+          ]
+        },
+        {
+          "attr": {
+            "debugLine": "pages/recipie_block/recipie_block:4",
+            "className": "recp-img-fav",
+            "src": function () {return this.favourite_icon}
+          },
+          "type": "image",
+          "classList": [
+            "recp-img-fav"
+          ]
+        }
+      ]
+    },
+    {
+      "attr": {
+        "debugLine": "pages/recipie_block/recipie_block:6",
+        "className": "recp-name",
+        "value": function () {return this.recp_name}
+      },
+      "type": "text",
+      "classList": [
+        "recp-name"
+      ]
+    },
+    {
+      "attr": {
+        "debugLine": "pages/recipie_block/recipie_block:7"
+      },
+      "type": "div",
+      "style": {
+        "flexDirection": "row"
+      },
+      "children": [
+        {
+          "attr": {
+            "debugLine": "pages/recipie_block/recipie_block:8",
+            "className": "clock",
+            "src": function () {return this.clock}
+          },
+          "type": "image",
+          "classList": [
+            "clock"
+          ]
+        },
+        {
+          "attr": {
+            "debugLine": "pages/recipie_block/recipie_block:9",
+            "className": "recp-settings"
+          },
+          "type": "div",
+          "classList": [
+            "recp-settings"
+          ],
+          "children": [
+            {
+              "attr": {
+                "debugLine": "pages/recipie_block/recipie_block:10",
+                "className": "recp-time",
+                "value": function () {return this.time_recp}
+              },
+              "type": "text",
+              "classList": [
+                "recp-time"
+              ]
+            },
+            {
+              "attr": {
+                "debugLine": "pages/recipie_block/recipie_block:11",
+                "className": "recp-type",
+                "value": function () {return this.recp_type}
+              },
+              "type": "text",
+              "classList": [
+                "recp-type"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml ***!
+  \******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "attr": {
+    "debugLine": "pages/storage_list/storage_list:1",
+    "className": "st-item"
+  },
+  "type": "div",
+  "classList": [
+    "st-item"
+  ],
+  "style": {
+    "flexDirection": "column",
+    "marginLeft": "25px"
+  },
+  "children": [
+    {
+      "attr": {
+        "debugLine": "pages/storage_list/storage_list:2",
+        "className": "st-item-image",
+        "src": function () {return this.st_item_image}
+      },
+      "type": "image",
+      "classList": [
+        "st-item-image"
+      ]
+    },
+    {
+      "attr": {
+        "debugLine": "pages/storage_list/storage_list:3",
+        "className": "st-item-name",
+        "value": function () {return this.st_item_name}
+      },
+      "type": "text",
+      "classList": [
+        "st-item-name"
+      ]
+    },
+    {
+      "attr": {
+        "debugLine": "pages/storage_list/storage_list:4",
+        "className": "st-item-weight",
+        "value": function () {return this.st_item_weight}
+      },
+      "type": "text",
+      "classList": [
+        "st-item-weight"
+      ]
+    }
+  ]
+}
+
+/***/ }),
+
+/***/ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.hml?name=percentage-bar":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./lib/loader.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml?name=percentage-bar ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./percent_bar.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.hml")
+var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./percent_bar.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.css")
+var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./percent_bar.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.js")
+
+$app_define$('@app-component/percentage-bar', [], function($app_require$, $app_exports$, $app_module$) {
+
+$app_script$($app_module$, $app_exports$, $app_require$)
+if ($app_exports$.__esModule && $app_exports$.default) {
+$app_module$.exports = $app_exports$.default
+}
+
+$app_module$.exports.template = $app_template$
+
+$app_module$.exports.style = $app_style$
+
+})
+
+
+/***/ }),
+
+/***/ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml?name=recipie-compnent":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./lib/loader.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?name=recipie-compnent ***!
+  \**************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./recipie_block.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml")
+var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./recipie_block.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.css")
+var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./recipie_block.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.js")
+
+$app_define$('@app-component/recipie-compnent', [], function($app_require$, $app_exports$, $app_module$) {
+
+$app_script$($app_module$, $app_exports$, $app_require$)
+if ($app_exports$.__esModule && $app_exports$.default) {
+$app_module$.exports = $app_exports$.default
+}
+
+$app_module$.exports.template = $app_template$
+
+$app_module$.exports.style = $app_style$
+
+})
+
+
+/***/ }),
+
+/***/ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml?name=storage-list":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./lib/loader.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?name=storage-list ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./storage_list.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml")
+var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./storage_list.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.css")
+var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./storage_list.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.js")
+
+$app_define$('@app-component/storage-list', [], function($app_require$, $app_exports$, $app_module$) {
+
+$app_script$($app_module$, $app_exports$, $app_require$)
+if ($app_exports$.__esModule && $app_exports$.default) {
+$app_module$.exports = $app_exports$.default
+}
+
+$app_module$.exports.template = $app_template$
+
+$app_module$.exports.style = $app_style$
+
+})
+
 
 /***/ }),
 
@@ -2518,21 +2323,6 @@ var _default = {
     song_name: 'Dreams',
     song_genre: 'Romantic',
     food_remain: 'Food Remaining',
-    vege: 'Vegetables',
-    fruits: 'Fruits',
-    meat: 'Meat',
-    vege_percent: '72%',
-    fruit_percent: '50%',
-    meat_percent: '20%',
-    recp1: 'Vada',
-    recp2: 'Meals',
-    recp3: 'Dosa',
-    recp_type1: 'Starters',
-    recp_type2: 'Main Course',
-    recp_type3: 'Main Course',
-    time_recp1: '30 Mins',
-    time_recp2: '45 Mins',
-    time_recp3: '15 Mins',
     home_txt: "Home",
     storage_txt: "Storage",
     music_txt: "Music",
@@ -2626,6 +2416,283 @@ if (moduleOwn.data && accessors.some(function (acc) {
 
 /***/ }),
 
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.js":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.js ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(module, exports, $app_require$){"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _default = {
+  data: {},
+  props: {
+    product_name: "",
+    product_percent: "",
+    bg_bar: "",
+    percent_color: ""
+  },
+  onInit: function onInit() {
+    this.bg_bar = "/common/images/vegetables_range_white.png";
+  }
+};
+exports["default"] = _default;
+
+function requireModule(moduleName) {
+  const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
+  'system.image', 'system.device', 'system.mediaquery', 'ohos.animator', 'system.grid', 'system.resource']
+  var target = ''
+  if (systemList.includes(moduleName.replace('@', ''))) {
+    target = $app_require$('@app-module/' + moduleName.substring(1));
+    return target;
+  }
+  var shortName = moduleName.replace(/@[^.]+.([^.]+)/, '$1');
+  if (typeof ohosplugin !== 'undefined' && /@ohos/.test(moduleName)) {
+    target = ohosplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  if (typeof systemplugin !== 'undefined') {
+    target = systemplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  target = requireNapi(shortName);
+  return target;
+}
+
+var moduleOwn = exports.default || module.exports;
+var accessors = ['public', 'protected', 'private'];
+if (moduleOwn.data && accessors.some(function (acc) {
+    return moduleOwn[acc];
+  })) {
+  throw new Error('For VM objects, attribute data must not coexist with public, protected, or private. Please replace data with public.');
+} else if (!moduleOwn.data) {
+  moduleOwn.data = {};
+  moduleOwn._descriptor = {};
+  accessors.forEach(function(acc) {
+    var accType = typeof moduleOwn[acc];
+    if (accType === 'object') {
+      moduleOwn.data = Object.assign(moduleOwn.data, moduleOwn[acc]);
+      for (var name in moduleOwn[acc]) {
+        moduleOwn._descriptor[name] = {access : acc};
+      }
+    } else if (accType === 'function') {
+      console.warn('For VM objects, attribute ' + acc + ' value must not be a function. Change the value to an object.');
+    }
+  });
+}}
+/* generated by ace-loader */
+
+
+/***/ }),
+
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.js":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(module, exports, $app_require$){"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _default = {
+  data: {
+    bg: "/common/images/bg.png",
+    recepie_bg: "/common/images/recepie_bg.png",
+    favourite_active: '/common/images/favourite_active.png',
+    favourite_inactive: '/common/images/favourite_inactive.png',
+    clock: '/common/images/clock.png'
+  },
+  props: {
+    user_reaction: "",
+    favourite_icon: "",
+    recp_name: '',
+    recp_type: '',
+    time_recp: '',
+    recp_image: ''
+  },
+  onInit: function onInit() {
+    if (this.user_reaction == "true") {
+      this.favourite_icon = this.favourite_active;
+    } else if (this.user_reaction == "false") {
+      this.favourite_icon = this.favourite_inactive;
+    }
+  }
+};
+exports["default"] = _default;
+
+function requireModule(moduleName) {
+  const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
+  'system.image', 'system.device', 'system.mediaquery', 'ohos.animator', 'system.grid', 'system.resource']
+  var target = ''
+  if (systemList.includes(moduleName.replace('@', ''))) {
+    target = $app_require$('@app-module/' + moduleName.substring(1));
+    return target;
+  }
+  var shortName = moduleName.replace(/@[^.]+.([^.]+)/, '$1');
+  if (typeof ohosplugin !== 'undefined' && /@ohos/.test(moduleName)) {
+    target = ohosplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  if (typeof systemplugin !== 'undefined') {
+    target = systemplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  target = requireNapi(shortName);
+  return target;
+}
+
+var moduleOwn = exports.default || module.exports;
+var accessors = ['public', 'protected', 'private'];
+if (moduleOwn.data && accessors.some(function (acc) {
+    return moduleOwn[acc];
+  })) {
+  throw new Error('For VM objects, attribute data must not coexist with public, protected, or private. Please replace data with public.');
+} else if (!moduleOwn.data) {
+  moduleOwn.data = {};
+  moduleOwn._descriptor = {};
+  accessors.forEach(function(acc) {
+    var accType = typeof moduleOwn[acc];
+    if (accType === 'object') {
+      moduleOwn.data = Object.assign(moduleOwn.data, moduleOwn[acc]);
+      for (var name in moduleOwn[acc]) {
+        moduleOwn._descriptor[name] = {access : acc};
+      }
+    } else if (accType === 'function') {
+      console.warn('For VM objects, attribute ' + acc + ' value must not be a function. Change the value to an object.');
+    }
+  });
+}}
+/* generated by ace-loader */
+
+
+/***/ }),
+
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.js":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(module, exports, $app_require$){"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _default = {
+  props: {
+    st_item_image: "",
+    st_item_name: "",
+    st_item_weight: ""
+  }
+};
+exports["default"] = _default;
+
+function requireModule(moduleName) {
+  const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
+  'system.image', 'system.device', 'system.mediaquery', 'ohos.animator', 'system.grid', 'system.resource']
+  var target = ''
+  if (systemList.includes(moduleName.replace('@', ''))) {
+    target = $app_require$('@app-module/' + moduleName.substring(1));
+    return target;
+  }
+  var shortName = moduleName.replace(/@[^.]+.([^.]+)/, '$1');
+  if (typeof ohosplugin !== 'undefined' && /@ohos/.test(moduleName)) {
+    target = ohosplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  if (typeof systemplugin !== 'undefined') {
+    target = systemplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  target = requireNapi(shortName);
+  return target;
+}
+
+var moduleOwn = exports.default || module.exports;
+var accessors = ['public', 'protected', 'private'];
+if (moduleOwn.data && accessors.some(function (acc) {
+    return moduleOwn[acc];
+  })) {
+  throw new Error('For VM objects, attribute data must not coexist with public, protected, or private. Please replace data with public.');
+} else if (!moduleOwn.data) {
+  moduleOwn.data = {};
+  moduleOwn._descriptor = {};
+  accessors.forEach(function(acc) {
+    var accType = typeof moduleOwn[acc];
+    if (accType === 'object') {
+      moduleOwn.data = Object.assign(moduleOwn.data, moduleOwn[acc]);
+      for (var name in moduleOwn[acc]) {
+        moduleOwn._descriptor[name] = {access : acc};
+      }
+    } else if (accType === 'function') {
+      console.warn('For VM objects, attribute ' + acc + ' value must not be a function. Change the value to an object.');
+    }
+  });
+}}
+/* generated by ace-loader */
+
+
+/***/ }),
+
 /***/ "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.hml?entry":
 /*!**************************************************************************************************************!*\
   !*** C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/index/index.hml?entry ***!
@@ -2633,6 +2700,9 @@ if (moduleOwn.data && accessors.some(function (acc) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(/*! !./lib/loader.js!../recipie_block/recipie_block.hml?name=recipie-compnent */ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml?name=recipie-compnent")
+__webpack_require__(/*! !./lib/loader.js!../storage_list/storage_list.hml?name=storage-list */ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml?name=storage-list")
+__webpack_require__(/*! !./lib/loader.js!../percent_bar/percent_bar.hml?name=percentage-bar */ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.hml?name=percentage-bar")
 var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./index.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.hml")
 var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./index.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.css")
 var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./index.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.js")

@@ -93,7 +93,7 @@
 /*! exports provided: appID, appName, versionName, versionCode, minPlatformVersion, pages, deviceType, window, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"appID\":\"com.example.refrigerator\",\"appName\":\"$string:entry_MainAbility\",\"versionName\":\"1.0.0\",\"versionCode\":1000000,\"minPlatformVersion\":6,\"pages\":[\"pages/index/index\"],\"deviceType\":[\"phone\",\"tablet\",\"tv\",\"wearable\"],\"window\":{\"autoDesignWidth\":true,\"designWidth\":720}}");
+module.exports = JSON.parse("{\"appID\":\"com.example.refrigerator\",\"appName\":\"$string:entry_MainAbility\",\"versionName\":\"1.0.0\",\"versionCode\":1000000,\"minPlatformVersion\":6,\"pages\":[\"pages/index/index\",\"pages/recipie_block/recipie_block\",\"pages/storage_list/storage_list\"],\"deviceType\":[\"phone\",\"tablet\",\"tv\",\"wearable\"],\"window\":{\"autoDesignWidth\":true,\"designWidth\":720}}");
 
 /***/ }),
 

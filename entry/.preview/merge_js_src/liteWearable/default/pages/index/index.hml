@@ -1,3 +1,6 @@
+<element name="recipie-compnent" src="../recipie_block/recipie_block.hml"></element>
+<element name="storage-list" src="../storage_list/storage_list.hml"></element>
+<element name="percentage-bar" src="../percent_bar/percent_bar.hml"></element>
 <div class="container" style="background-image: {{bg}};">
     <div class="status-bar" style="flex-direction: row;">
         <image class="wifi" src="{{wifi}}"></image>
@@ -45,27 +48,13 @@
         </div>
         <div class="food-remaining" style="background-image: {{music_bg}};">
             <text class="food-remain">{{food_remain}}</text>
-            <div class="set1_sub2">
-                <text class="txt1">{{vege}}</text>
-                <text class="txt1">{{vege_percent}}</text>
-            </div>
-            <div class="v-base" style="background-image: {{vegetables_range_white}};">
-                <image src="{{green_range}}" style="width: {{vege_percent}};"></image>
-            </div>
-            <div class="set1_sub2">
-                <text class="txt1">{{fruits}}</text>
-                <text class="txt1">{{fruit_percent}}</text>
-            </div>
-            <div class="f-base" style="background-image: {{vegetables_range_white}};">
-                <image src="{{violet_range}}" style="width: {{fruit_percent}};"></image>
-            </div>
-            <div class="set1_sub2">
-                <text class="txt1">{{meat}}</text>
-                <text class="txt1">{{meat_percent}}</text>
-            </div>
-            <div class="m-base" style="background-image: {{vegetables_range_white}};">
-                <image src="{{orange_range}}" style="width: {{meat_percent}};"></image>
-            </div>
+            <percentage-bar product_name="Vegetables" product_percent="72%"
+                            percent_color="{{green_range}}"></percentage-bar>
+            <percentage-bar product_name="Fruits" product_percent="50%"
+                            percent_color="{{violet_range}}"></percentage-bar>
+            <percentage-bar product_name="Meat" product_percent="20%"
+                            percent_color="{{orange_range}}"></percentage-bar>
+
         </div>
     </div>
 
@@ -82,33 +71,18 @@
                 </div>
             </div>
             <div style="flex-direction: row; margin-top:30.35px">
-                <list id="List" style="flex-direction: row;">
+                <list id="List" style="flex-direction: row; padding-right: 15px;">
                     <list-item type="common">
-                        <div class="st-item" style="margin-left:20px; flex-direction: column;">
-                            <image class="st-item-image" src="{{st_item_1}}"></image>
-                            <text class="st-item-name">{{st_item_1_name}}</text>
-                            <text class="st-item-weight">{{st_item_1_weight}}</text>
-                        </div>
-                        <div class="st-item" style="margin-left:30px; flex-direction: column;">
-                            <image class="st-item-image" src="{{st_item_2}}"></image>
-                            <text class="st-item-name">{{st_item_2_name}}</text>
-                            <text class="st-item-weight">{{st_item_2_weight}}</text>
-                        </div>
-                        <div class="st-item" style="margin-left:30px; flex-direction: column;">
-                            <image class="st-item-image" src="{{st_item_3}}"></image>
-                            <text class="st-item-name">{{st_item_3_name}}</text>
-                            <text class="st-item-weight">{{st_item_3_weight}}</text>
-                        </div>
-                        <div class="st-item" style="margin-left:30px; flex-direction: column;">
-                            <image class="st-item-image" src="{{st_item_4}}"></image>
-                            <text class="st-item-name">{{st_item_4_name}}</text>
-                            <text class="st-item-weight">{{st_item_4_weight}}</text>
-                        </div>
-                        <div class="st-item" style="margin-left:30px; flex-direction: column;">
-                            <image class="st-item-image" src="{{st_item_5}}"></image>
-                            <text class="st-item-name">{{st_item_5_name}}</text>
-                            <text class="st-item-weight">{{st_item_5_weight}}</text>
-                        </div>
+                        <storage-list st_item_image="{{st_item_1}}" st_item_name="{{st_item_1_name}}"
+                                      st_item_weight="{{st_item_1_weight}}"></storage-list>
+                        <storage-list st_item_image="{{st_item_2}}" st_item_name="{{st_item_2_name}}"
+                                      st_item_weight="{{st_item_2_weight}}"></storage-list>
+                        <storage-list st_item_image="{{st_item_3}}" st_item_name="{{st_item_3_name}}"
+                                      st_item_weight="{{st_item_3_weight}}"></storage-list>
+                        <storage-list st_item_image="{{st_item_4}}" st_item_name="{{st_item_4_name}}"
+                                      st_item_weight="{{st_item_4_weight}}"></storage-list>
+                        <storage-list st_item_image="{{st_item_5}}" st_item_name="{{st_item_5_name}}"
+                                      st_item_weight="{{st_item_5_weight}}"></storage-list>
                     </list-item>
                 </list>
             </div>
@@ -164,48 +138,14 @@
     </div>
 
     <div class="set5">
-        <div class="basic-recepie" style="background-image: {{recepie_bg}}; flex-direction: column;">
-            <div style="flex-direction: row;">
-                <image class="recp-img" src="{{recp_1}}"></image>
-                <image class="recp-img-fav" src="{{favourite_active}}"></image>
-            </div>
-            <text class="recp-name">{{recp1}}</text>
-            <div style="flex-direction: row;">
-                <image class="clock" src="{{clock}}"/>
-                <div class="recp-settings" >
-                    <text class="recp-time">{{time_recp1}}</text>
-                    <text class="recp-type">{{recp_type1}}</text>
-                </div>
-            </div>
-        </div>
-        <div class="basic-recepie" style="background-image: {{recepie_bg}}; margin-left: 9.93px; flex-direction: column;">
-            <div style="flex-direction: row;">
-                <image class="recp-img" src="{{recp_2}}"></image>
-                <image class="recp-img-fav" src="{{favourite_inactive}}"></image>
-            </div>
-            <text class="recp-name">{{recp2}}</text>
-            <div style="flex-direction: row;">
-                <image class="clock" src="{{clock}}"/>
-                <div class="recp-settings" >
-                    <text class="recp-time">{{time_recp2}}</text>
-                    <text class="recp-type">{{recp_type2}}</text>
-                </div>
-            </div>
-        </div>
-        <div class="basic-recepie" style="background-image: {{recepie_bg}}; margin-left: 9.93px; flex-direction: column;">
-            <div style="flex-direction: row;">
-                <image class="recp-img" src="{{recp_3}}"></image>
-                <image class="recp-img-fav" src="{{favourite_inactive}}"></image>
-            </div>
-            <text class="recp-name">{{recp3}}</text>
-            <div style="flex-direction: row;">
-                <image class="clock" src="{{clock}}"/>
-                <div class="recp-settings" >
-                    <text class="recp-time">{{time_recp3}}</text>
-                    <text class="recp-type">{{recp_type3}}</text>
-                </div>
-            </div>
-        </div>
+        <recipie-compnent user_reaction="true" recp_name= 'Vada'
+                          recp_type= 'Starters' time_recp='30mins' recp_image="{{recp_1}}"></recipie-compnent>
+        <recipie-compnent user_reaction="false" recp_name= 'Meals'
+                          recp_type= 'Main Course' time_recp='45mins' recp_image="{{recp_2}}"></recipie-compnent>
+        <recipie-compnent user_reaction="false" recp_name= 'Dosa'
+                          recp_type= 'Main Course' time_recp='15mins' recp_image="{{recp_3}}"></recipie-compnent>
+
+
     </div>
     <div class="set6" style="background-image: {{bottom_tab_bg}}; flex-direction: row;">
         <div style="flex-direction: column;" >
