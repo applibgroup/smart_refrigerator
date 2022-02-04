@@ -12,6 +12,6 @@
 <p align="center">
  © Sahil Chutani and Devashish
   <br>
-  Licensed under the <a href="https://github.com/sahilchutani/carousel_image_slider/blob/main/LICENSE">APACHE LICENSE 2.0</a>
+  Licensed under the <a href="https://github.com/sahilchutani/smart_refrigerator/blob/main/LICENSE">APACHE LICENSE 2.0</a>
 </p>
 
