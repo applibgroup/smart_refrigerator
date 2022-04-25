@@ -109,22 +109,26 @@
     width: 210px;
 }
 .dreams-bg{
+    align-self: center;
     margin-top: 18.38px;
     height: 98.49px;
     width: 98.49px;
 }
 .song-name{
+    width: 100%;
     height: 17px;
-    width: 48px;
     text-align: center;
     font-size: 15px;
     margin-top: 6.59px;
 }
 .song-genre{
+    width: 100%;
+    text-align: center;
     font-size: 11px;
     margin-top: 2.28px;
 }
 .set1_sub{
+    margin-top: 7px;
     flex-direction: row;
     align-content: center;
 }
@@ -168,6 +172,7 @@
     padding-bottom: 20px;
 }
 .food-remain{
+    height: 30px;
     color: #b1b9d8;
     margin-top: 17.56px;
     margin-left: 18.37px;
@@ -320,8 +325,8 @@
     margin-top: 10px;
     align-content: center;
     margin-left: 12px;
-    width: 100px;
-    height: 35px;
+    width: 100.9999999999999px;
+    height: 36px;
 }
 .refri-door-status-button-txt{
     margin-top: 10px;
@@ -336,9 +341,15 @@
     height: 160.45px;
     width: 160.45px;
 }
+.toggle-txt-button{
+    margin-top: 28px;
+    margin-left: 9px;
+    margin-right: 9px;
+    justify-content: space-between;
+    width: 100%;
+}
 .superfreeze-toggle{
     margin-left: 9.99px;
-    margin-top: 40px;
     font-size: 15px;
 }
 .bottom-left-box{
@@ -349,9 +360,11 @@
     width: 160.45px;
 }
 .bottom-left-box-toggle{
+    text-align: right;
     margin-left: 9.99px;
     margin-top: 40px;
     font-size: 15px;
+
 }
 .bottom-right-box{
     flex-direction: column;
@@ -374,7 +387,6 @@
 }
 .crisp-fresh-toggle{
     margin-left: 9.99px;
-    margin-top: 40px;
     font-size: 15px;
 }
 .set4{

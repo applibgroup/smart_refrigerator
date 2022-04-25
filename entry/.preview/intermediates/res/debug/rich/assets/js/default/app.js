@@ -81,26 +81,47 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\app.js?entry");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../git/smart_refrigerator/entry/src/main/js/default/app.js?entry");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./lib/manifest-plugin.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\.preview\\jsManifest\\default\\manifest.json":
-/*!*********************************************************************************************************************************!*\
-  !*** ./lib/manifest-plugin.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/.preview/jsManifest/default/manifest.json ***!
-  \*********************************************************************************************************************************/
-/*! exports provided: appID, appName, versionName, versionCode, minPlatformVersion, pages, deviceType, window, default */
-/***/ (function(module) {
+/***/ "../../../../../git/smart_refrigerator/entry/src/main/js/default/app.js?entry":
+/*!************************************************************************!*\
+  !*** E:/git/smart_refrigerator/entry/src/main/js/default/app.js?entry ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = JSON.parse("{\"appID\":\"com.example.refrigerator\",\"appName\":\"$string:entry_MainAbility\",\"versionName\":\"1.0.0\",\"versionCode\":1000000,\"minPlatformVersion\":6,\"pages\":[\"pages/index/index\",\"pages/recipie_block/recipie_block\",\"pages/storage_list/storage_list\"],\"deviceType\":[\"phone\",\"tablet\",\"tv\",\"wearable\"],\"window\":{\"autoDesignWidth\":true,\"designWidth\":720}}");
+var $app_script$ = __webpack_require__(/*! !../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/manifest-loader.js?path=E:/git/smart_refrigerator/entry/src/main/js/default/app.js!./app.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=E:\\git\\smart_refrigerator\\entry\\src\\main\\js\\default\\app.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/app.js")
+
+      $app_define$('@app-application/app', [], function($app_require$, $app_exports$, $app_module$) {
+      
+      $app_script$($app_module$, $app_exports$, $app_require$)
+      if ($app_exports$.__esModule && $app_exports$.default) {
+        $app_module$.exports = $app_exports$.default
+      }
+      
+      })
+      $app_bootstrap$('@app-application/app',undefined,undefined)
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\app.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\app.js":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/app.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/app.js ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/manifest-plugin.js!../../../../../git/smart_refrigerator/entry/.preview/jsManifest/default/manifest.json":
+/*!**********************************************************************************************************!*\
+  !*** ./lib/manifest-plugin.js!E:/git/smart_refrigerator/entry/.preview/jsManifest/default/manifest.json ***!
+  \**********************************************************************************************************/
+/*! exports provided: appID, appName, versionName, versionCode, minPlatformVersion, pages, deviceType, window, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"appID\":\"com.example.refrigerator\",\"appName\":\"$string:entry_MainAbility\",\"versionName\":\"1.0.0\",\"versionCode\":1000000,\"minPlatformVersion\":6,\"pages\":[\"pages/index/index\",\"pages/recipie_block/recipie_block\",\"pages/storage_list/storage_list\",\"pages/percent_bar/percent_bar\"],\"deviceType\":[\"phone\",\"tablet\",\"tv\",\"wearable\"],\"window\":{\"autoDesignWidth\":true,\"designWidth\":720}}");
+
+/***/ }),
+
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=E:\\git\\smart_refrigerator\\entry\\src\\main\\js\\default\\app.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/app.js":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=E:/git/smart_refrigerator/entry/src/main/js/default/app.js!E:/git/smart_refrigerator/entry/src/main/js/default/app.js ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -120,7 +141,7 @@ var _default = {
 };
 exports["default"] = _default;
 ;
-(exports["default"] || module.exports).manifest = __webpack_require__(/*! !./lib/manifest-plugin.js!../../../../.preview/jsManifest/default/manifest.json */ "./lib/manifest-plugin.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\.preview\\jsManifest\\default\\manifest.json");
+(exports["default"] || module.exports).manifest = __webpack_require__(/*! !../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/manifest-plugin.js!../../../../.preview/jsManifest/default/manifest.json */ "./lib/manifest-plugin.js!../../../../../git/smart_refrigerator/entry/.preview/jsManifest/default/manifest.json");
 
 function requireModule(moduleName) {
   const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
@@ -161,27 +182,6 @@ function requireModule(moduleName) {
 }
 /* generated by ace-loader */
 
-
-/***/ }),
-
-/***/ "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\app.js?entry":
-/*!***********************************************************************************************!*\
-  !*** C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/app.js?entry ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/app.js!./app.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./lib/manifest-loader.js?path=C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\app.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\app.js")
-
-      $app_define$('@app-application/app', [], function($app_require$, $app_exports$, $app_module$) {
-      
-      $app_script$($app_module$, $app_exports$, $app_require$)
-      if ($app_exports$.__esModule && $app_exports$.default) {
-        $app_module$.exports = $app_exports$.default
-      }
-      
-      })
-      $app_bootstrap$('@app-application/app',undefined,undefined)
 
 /***/ })
 

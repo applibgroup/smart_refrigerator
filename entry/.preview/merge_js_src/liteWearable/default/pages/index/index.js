@@ -1,3 +1,9 @@
+// @ts-nocheck
+import fetch from '@system.fetch';
+import items from '../../i18n/items.json';
+import item2 from '../../i18n/food_remain.json';
+import item3 from '../../i18n/music_info.json';
+import item4 from '../../i18n/weather_api.json';
 export default {
     data: {
         //      I M A G E S
@@ -6,7 +12,6 @@ export default {
         apps: "/common/images/apps.png",
         lock: "/common/images/lock.png",
         location: '/common/images/location.png',
-        weather: '/common/images/weather.png',
         scroll_inactive: '/common/images/scroll_inactive.png',
         time_bg: "/common/images/time_bg.png",
         music_bg: "/common/images/music_bg.png",
@@ -15,21 +20,13 @@ export default {
         refrigerator_doors_bg: "/common/images/refrigerator_doors_bg.png",
         recepie_bg: "/common/images/recepie_bg.png",
         bottom_tab_bg: "/common/images/bottom_tab_bg.png",
-        dreams_img: '/common/images/dreams_img.png',
         shuffle: '/common/images/shuffle.png',
         back: '/common/images/back.png',
         play: '/common/images/play.png',
         next: '/common/images/next.png',
         range: '/common/images/range.png',
-//      : '/common/images/.png',
         vegetables_range_white: '/common/images/vegetables_range_white.png',
-        green_range: '/common/images/green_range.png',
-        orange_range: '/common/images/orange_range.png',
-        violet_range: '/common/images/violet_range.png',
         microphone: '/common/images/microphone.png',
-        recp_1: '/common/images/vada.png',
-        recp_2: '/common/images/meals.png',
-        recp_3: '/common/images/dosa.png',
         clock: '/common/images/clock.png',
         favourite_active: '/common/images/favourite_active.png',
         favourite_inactive: '/common/images/favourite_inactive.png',
@@ -39,24 +36,12 @@ export default {
         settings_icon: '/common/images/settings.png',
         view_icon: '/common/images/view_icon.png',
         add_icon: '/common/images/add_icon.png',
-        st_item_1: '/common/images/chicken.png',
-        st_item_2: '/common/images/vegetables.png',
-        st_item_3: '/common/images/spinach.png',
-        st_item_4: '/common/images/fruits.png',
-        st_item_5: '/common/images/fruits.png',
         pink_button: '/common/images/pink_button.png',
 
         //      T E X T
-        username: 'UserName',
-        time: '10:00 PM',
-        loaction_city:"Bangalore",
-        day_date:"Wednesday, 17 Dec",
-        temp_red:"30°",
         storage_settings:'Storage Settings',
         dinner_text:'Dinner Recepies for you',
         all_recp_text:'All Recepies',
-        song_name: 'Dreams',
-        song_genre: 'Romantic',
         food_remain: 'Food Remaining',
         home_txt: "Home",
         storage_txt: "Storage",
@@ -67,28 +52,190 @@ export default {
         your_storage:"Your Storage",
         view_text:"View",
         add_text:"Add",
-        st_item_1_name:"Fresh Chicken",
-        st_item_2_name:"Vegetables",
-        st_item_3_name:"Spinach",
-        st_item_4_name:"Fruits",
-        st_item_5_name:"Milk",
-        st_item_1_weight:"1kg",
-        st_item_2_weight:"3kg",
-        st_item_3_weight:"500g",
-        st_item_4_weight:"3kg",
-        st_item_5_weight:"2lts",
         door_text:"Refrigerator Doors",
+        time:"",
+        day_date:"",
+
+        //      Device Details
+        //username: 'UserName',
+        //location_city:"Bangalore",
+        //temp_red:"30°",
+        //weather_icon: '/common/images/weather.png',
+        weather_icon: '',
+        location_city:"",
+        temp_celsius:"",
+        weather_api_input:[],
+        weather_api_output:[],
+
+        //      Music Information
+
+        music_info:[],
+
+        //      Food Remaining tab
+        food_remaining:[],
+
+        //      Storage Setting Items
+        st_items :[],
+
+        //      Refrigeator Settings
         door_status:"Locked",
         door_status_toggle:"Unlock",
-        superfreeze_toggle_txt:"Off",
+        superfreeze_toggle_txt:"On",
         bottom_box_left_toggle_text: "Freeze",
         bottom_box_right_toggle_text: "Fresh",
-        crisp_fresh_text:"Off",
+        crisp_fresh_toggle_txt:"On",
+        superfreeze_toggle_txt_bool:"",
+        crisp_fresh_toggle_txt_bool:"",
 
 
+        //      Recepie 1 Information
+        recp_1_image: '/common/images/vada.png',
+        recp_1_name:"Vada",
+        recp_1_time:"30 Mins",
+        recp_1_type:"Starters",
+        recp_1_user_reaction:"false",
 
+        //      Recepie 2 Information
+        recp_2_image: '/common/images/meals.png',
+        recp_2_name:"Meals",
+        recp_2_time:"45 Mins",
+        recp_2_type:"Main Course",
+        recp_2_user_reaction:"true",
+
+        //      Recepie 3 Information
+        recp_3_image: '/common/images/dosa.png',
+        recp_3_name:"Dosa",
+        recp_3_time:"15 Mins",
+        recp_3_type:"Main Course",
+        recp_3_user_reaction:"false",
+
+    },
+    onInit() {
+        setInterval(this.date_time_calc,1000);
+
+        if(this.superfreeze_toggle_txt == "On"){
+            this.superfreeze_toggle_txt_bool="true";
+        }
+        else{
+            this.superfreeze_toggle_txt_bool="false";
+        }
+
+        if(this.crisp_fresh_toggle_txt == "On"){
+            this.crisp_fresh_toggle_txt_bool="true";
+        }
+        else{
+            this.crisp_fresh_toggle_txt_bool="false";
+        }
+
+        this.getRecipeList(this);
+        this.getFoodRemaining(this);
+        this.music_information(this);
+        this.weather_api(this)
+    },
+
+    getRecipeList(e){
+        var data = JSON.stringify(items);
+        this.st_items = JSON.parse(data);
+        //console.log(this.st_items);
+
+    },
+    getFoodRemaining(e){
+        var data2 = JSON.stringify(item2);
+        this.food_remaining = JSON.parse(data2);
+        //console.log(this.food_remaining);
+    },
+    music_information(e){
+        var data3 = JSON.stringify(item3);
+        this.music_info = JSON.parse(data3);
+        //console.log(this.music_info);
+    },
+    weather_api(e){
+        var data4 = JSON.stringify(item4);
+        this.weather_api_input = JSON.parse(data4);
+        //console.log(this.weather_api_input[0].api_key);
+        //const url =  "https://api.openweathermap.org/data/2.5/weather?lat="+this.weather_api_input[0].latitude+"&lon="+this.weather_api_input[0].longitude+"&appid="+this.weather_api_input[0].api_key;
+        //console.log(url);
+
+        let data;
+        fetch.fetch({
+            url :  "https://api.openweathermap.org/data/2.5/weather?lat="+this.weather_api_input[0].latitude+"&lon="+this.weather_api_input[0].longitude+"&appid="+this.weather_api_input[0].api_key,
+            responseType:"json",
+            method: 'POST',
+            success:function(resp)
+            {
+                console.log("hello1")
+                data = JSON.parse(resp);
+            },
+            fail:(data,code) => {
+                console.log("hello2")
+                console.log("fail data: "+ JSON.stringify(data) + " fail code: "+ code );
+            },
+            complete: ()=>{
+                console.log("hello3")
+                this.weather = data.weather.main ;
+                console.log("Weather :"+data.weather.main)
+            }
+        })
+
+        //console.log(this.weather_api_output);
+
+        this.weather_icon = "http://openweathermap.org/img/w/"+"50n"+".png";
 
     },
 
+    date_time_calc(e){
+        //      Getting Local time in UTC and convert it into IST
+        var today = new Date();
+        var hr = today.getHours() + 5;
+        var min = today.getMinutes() +30;
+        var ampm="PM";
+        if(hr>12){hr=hr-12;}
+        else{ampm="AM";}
 
+        if (min>=60){
+            hr = hr+1;
+            min = min-60;
+
+        }
+        if (min<10){min = "0" + min;}
+        this.time = hr + ":" + min + " " + ampm;
+
+        //      Getiing Local Day and date
+        var d = new Date();
+        var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        var day_num = d.getDay();
+        var day=days[day_num];
+        var months = ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"];
+        var month_num = d.getMonth();
+        var month = months[month_num];
+        this.day_date = day+", "+d.getDate()+" "+month;
+
+    },
+    superfreeze_onSwitchChange(e){
+        if(e.checked){
+            this.superfreeze_toggle_txt = "On";
+        }
+        else{
+            this.superfreeze_toggle_txt = "Off";
+        }
+    },
+
+    crispfresh_onSwitchChange(e){
+        if(e.checked){
+            this.crisp_fresh_toggle_txt = "On";
+        }
+        else{
+            this.crisp_fresh_toggle_txt = "Off";
+        }
+    },
+    door_lock_onclick(e){
+        if(this.door_status == "Locked"){
+            this.door_status="Unlocked";
+            this.door_status_toggle="Lock";
+        }
+        else if(this.door_status == "Unlocked"){
+            this.door_status="Locked";
+            this.door_status_toggle="Unlock";
+        }
+    }
 }

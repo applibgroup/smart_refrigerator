@@ -16,8 +16,8 @@
             <div>
                 <image class="location-icon" src="{{location}}"/>
                 <div style="width: 160px; justify-content: space-between; ">
-                    <text class="location-city">{{loaction_city}}</text>
-                    <image class="weather" src="{{weather}}"></image>
+                    <text class="location-city">{{location_city}}</text>
+                    <image class="weather" src="{{weather_icon}}"></image>
                 </div>
             </div>
             <text class="time-txt">{{time}}</text>
@@ -35,9 +35,13 @@
             </div>
         </div>
         <div class="music-bg" style="background-image: {{music_bg}};flex-direction: column;">
-            <image class="dreams-bg" src="{{dreams_img}}"/>
-            <text class="song-name">{{song_name}}</text>
-            <text class="song-genre">{{song_genre}}</text>
+            <div style="flex-direction: column;  height: 150px; " >
+                <list-item for="{{music_info}}" style="flex-direction: column;">
+                    <image class="dreams-bg" src="{{$item.music_cover_image}}"/>
+                    <text class="song-name" style="text-align: center;">{{$item.music_name}}</text>
+                    <text class="song-genre">{{$item.music_genre}}</text>
+                </list-item>
+            </div>
             <div class="set1_sub">
                 <image class="shuffle" src="{{shuffle}}"/>
                 <image class="back" src="{{back}}"/>
@@ -48,12 +52,13 @@
         </div>
         <div class="food-remaining" style="background-image: {{music_bg}};">
             <text class="food-remain">{{food_remain}}</text>
-            <percentage-bar product_name="Vegetables" product_percent="72%"
-                            percent_color="{{green_range}}"></percentage-bar>
-            <percentage-bar product_name="Fruits" product_percent="50%"
-                            percent_color="{{violet_range}}"></percentage-bar>
-            <percentage-bar product_name="Meat" product_percent="20%"
-                            percent_color="{{orange_range}}"></percentage-bar>
+            <div style="flex-direction: column; height: 140px; margin-top: 20px;justify-content: space-between;">
+                    <list-item for="{{food_remaining}}">
+                        <percentage-bar product_name="{{$item.food_name}}"
+                                        product_percent="{{$item.food_percentage}}"
+                                        percent_color="{{$item.percent_color}}"></percentage-bar>
+                    </list-item>
+            </div>
 
         </div>
     </div>
@@ -71,18 +76,11 @@
                 </div>
             </div>
             <div style="flex-direction: row; margin-top:30.35px">
-                <list id="List" style="flex-direction: row; padding-right: 15px;">
-                    <list-item type="common">
-                        <storage-list st_item_image="{{st_item_1}}" st_item_name="{{st_item_1_name}}"
-                                      st_item_weight="{{st_item_1_weight}}"></storage-list>
-                        <storage-list st_item_image="{{st_item_2}}" st_item_name="{{st_item_2_name}}"
-                                      st_item_weight="{{st_item_2_weight}}"></storage-list>
-                        <storage-list st_item_image="{{st_item_3}}" st_item_name="{{st_item_3_name}}"
-                                      st_item_weight="{{st_item_3_weight}}"></storage-list>
-                        <storage-list st_item_image="{{st_item_4}}" st_item_name="{{st_item_4_name}}"
-                                      st_item_weight="{{st_item_4_weight}}"></storage-list>
-                        <storage-list st_item_image="{{st_item_5}}" st_item_name="{{st_item_5_name}}"
-                                      st_item_weight="{{st_item_5_weight}}"></storage-list>
+                <list style="flex-direction: row; padding-right: 15px;">
+                    <list-item for="{{st_items}}">
+                        <storage-list st_item_image="{{$item.img_path}}"
+                                      st_item_name="{{$item.food_name}}"
+                                      st_item_weight="{{$item.item_weight}}"></storage-list>
                     </list-item>
                 </list>
             </div>
@@ -97,36 +95,46 @@
 
     <div class="set3" style="flex-direction: row;">
         <list id="List" style="flex-direction: row;">
-            <list-item type="common">
+            <list-item type="common" >
                 <div class="refri-door" style="background-image: {{refrigerator_doors_bg}}; flex-direction: column;">
                     <text class="refri-door-text">{{door_text}}</text>
                     <text class="refri-door-status">{{door_status}}</text>
-                    <div class="refri-door-status-button" style="background-image: {{pink_button}}; background-size: cover;">
+                    <div class="refri-door-status-button" style="background-image: {{pink_button}}; background-size: cover;" onclick="door_lock_onclick">
                         <text class="refri-door-status-button-txt">{{door_status_toggle}}</text>
                     </div>
                 </div>
                 <div class="superfreeze" style="background-image: {{music_bg}};">
                     <text class="refri-door-text">Superfreeze</text>
-                    <div>
+                    <div class="toggle-txt-button">
                         <text class="superfreeze-toggle">{{ superfreeze_toggle_txt }}</text>
+                        <switch  @change="superfreeze_onSwitchChange" checked="{{superfreeze_toggle_txt_bool}}"></switch>
                     </div>
                 </div>
                 <div class="bottom-left-box" style="background-image: {{music_bg}};">
                     <text class="refri-door-text">Bottom Box Left</text>
                     <div>
-                        <text class="bottom-left-box-toggle">{{ bottom_box_left_toggle_text }}</text>
+                        <select class="bottom-left-box-toggle">
+                            <option value="{{bottom_box_left_toggle_text}}" selected="true">{{bottom_box_left_toggle_text}}</option>
+                            <option value="Super Freeze">Super Freeze</option>
+                            <option value="Fresh">Fresh</option>
+                        </select>
                     </div>
                 </div>
                 <div class="bottom-right-box" style="background-image: {{music_bg}};">
                     <text class="refri-door-text">Bottom Box Right</text>
                     <div>
-                        <text class="bottom-right-box-toggle">{{ bottom_box_right_toggle_text }}</text>
+                        <select class="bottom-right-box-toggle">
+                            <option value="{{bottom_box_right_toggle_text}}" selected="true">{{bottom_box_right_toggle_text}}</option>
+                            <option value="Super Freeze">Super Freeze</option>
+                            <option value="Freeze">Freeze</option>
+                        </select>
                     </div>
                 </div>
                 <div class="crisp-fresh" style="background-image: {{music_bg}};">
                     <text class="refri-door-text">Crisp Fresh</text>
-                    <div>
-                        <text class="crisp-fresh-toggle">{{ crisp_fresh_text }}</text>
+                    <div class="toggle-txt-button">
+                        <text class="crisp-fresh-toggle">{{ crisp_fresh_toggle_txt }}</text>
+                        <switch @change="crispfresh_onSwitchChange" checked="{{crisp_fresh_toggle_txt_bool}}" ></switch>
                     </div>
                 </div>
             </list-item>
@@ -138,12 +146,12 @@
     </div>
 
     <div class="set5">
-        <recipie-compnent user_reaction="true" recp_name= 'Vada'
-                          recp_type= 'Starters' time_recp='30mins' recp_image="{{recp_1}}"></recipie-compnent>
-        <recipie-compnent user_reaction="false" recp_name= 'Meals'
-                          recp_type= 'Main Course' time_recp='45mins' recp_image="{{recp_2}}"></recipie-compnent>
-        <recipie-compnent user_reaction="false" recp_name= 'Dosa'
-                          recp_type= 'Main Course' time_recp='15mins' recp_image="{{recp_3}}"></recipie-compnent>
+        <recipie-compnent user_reaction="{{recp_1_user_reaction}}" recp_name= '{{recp_1_name}}'
+                          recp_type= '{{recp_1_type}}' time_recp='{{recp_1_time}}' recp_image="{{recp_1_image}}"></recipie-compnent>
+        <recipie-compnent user_reaction="{{recp_2_user_reaction}}" recp_name= '{{recp_2_name}}'
+                          recp_type= '{{recp_2_type}}' time_recp='{{recp_2_time}}' recp_image="{{recp_2_image}}"></recipie-compnent>
+        <recipie-compnent user_reaction="{{recp_3_user_reaction}}" recp_name= '{{recp_3_name}}'
+                          recp_type= '{{recp_3_type}}' time_recp='{{recp_3_time}}' recp_image="{{recp_3_image}}"></recipie-compnent>
 
 
     </div>

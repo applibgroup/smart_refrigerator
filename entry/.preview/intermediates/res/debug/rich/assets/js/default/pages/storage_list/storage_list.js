@@ -81,15 +81,42 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml?entry");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?entry");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.css":
-/*!***************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css ***!
-  \***************************************************************************************************************************************************/
+/***/ "../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?entry":
+/*!*****************************************************************************************************!*\
+  !*** E:/git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?entry ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $app_template$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./storage_list.hml */ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml")
+var $app_style$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./storage_list.css */ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./storage_list.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js")
+
+$app_define$('@app-component/storage_list', [], function($app_require$, $app_exports$, $app_module$) {
+
+$app_script$($app_module$, $app_exports$, $app_require$)
+if ($app_exports$.__esModule && $app_exports$.default) {
+$app_module$.exports = $app_exports$.default
+}
+
+$app_module$.exports.template = $app_template$
+
+$app_module$.exports.style = $app_style$
+
+})
+$app_bootstrap$('@app-component/storage_list',undefined,undefined)
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css":
+/*!****************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -117,10 +144,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml":
-/*!******************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml ***!
-  \******************************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml":
+/*!*******************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -176,10 +203,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.js":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -258,33 +285,6 @@ if (moduleOwn.data && accessors.some(function (acc) {
 }}
 /* generated by ace-loader */
 
-
-/***/ }),
-
-/***/ "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml?entry":
-/*!****************************************************************************************************************************!*\
-  !*** C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?entry ***!
-  \****************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./storage_list.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml")
-var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./storage_list.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.css")
-var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./storage_list.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.js")
-
-$app_define$('@app-component/storage_list', [], function($app_require$, $app_exports$, $app_module$) {
-
-$app_script$($app_module$, $app_exports$, $app_require$)
-if ($app_exports$.__esModule && $app_exports$.default) {
-$app_module$.exports = $app_exports$.default
-}
-
-$app_module$.exports.template = $app_template$
-
-$app_module$.exports.style = $app_style$
-
-})
-$app_bootstrap$('@app-component/storage_list',undefined,undefined)
 
 /***/ })
 

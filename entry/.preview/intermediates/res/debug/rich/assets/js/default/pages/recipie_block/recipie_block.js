@@ -81,15 +81,42 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml?entry");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?entry");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.css":
-/*!*****************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css ***!
-  \*****************************************************************************************************************************************************/
+/***/ "../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?entry":
+/*!*******************************************************************************************************!*\
+  !*** E:/git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?entry ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $app_template$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./recipie_block.hml */ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml")
+var $app_style$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./recipie_block.css */ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./recipie_block.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js")
+
+$app_define$('@app-component/recipie_block', [], function($app_require$, $app_exports$, $app_module$) {
+
+$app_script$($app_module$, $app_exports$, $app_require$)
+if ($app_exports$.__esModule && $app_exports$.default) {
+$app_module$.exports = $app_exports$.default
+}
+
+$app_module$.exports.template = $app_template$
+
+$app_module$.exports.style = $app_style$
+
+})
+$app_bootstrap$('@app-component/recipie_block',undefined,undefined)
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -148,10 +175,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml":
-/*!********************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml ***!
-  \********************************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml":
+/*!*********************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -198,7 +225,10 @@ module.exports = {
           "type": "image",
           "classList": [
             "recp-img-fav"
-          ]
+          ],
+          "onBubbleEvents": {
+            "click": "user_reaction_listner"
+          }
         }
       ]
     },
@@ -274,10 +304,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.js":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -308,6 +338,15 @@ var _default = {
       this.favourite_icon = this.favourite_active;
     } else if (this.user_reaction == "false") {
       this.favourite_icon = this.favourite_inactive;
+    }
+  },
+  user_reaction_listner: function user_reaction_listner() {
+    if (this.user_reaction == "true") {
+      this.user_reaction = "false";
+      this.favourite_icon = this.favourite_inactive;
+    } else if (this.user_reaction == "false") {
+      this.user_reaction = "true";
+      this.favourite_icon = this.favourite_active;
     }
   }
 };
@@ -373,33 +412,6 @@ if (moduleOwn.data && accessors.some(function (acc) {
 }}
 /* generated by ace-loader */
 
-
-/***/ }),
-
-/***/ "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml?entry":
-/*!******************************************************************************************************************************!*\
-  !*** C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?entry ***!
-  \******************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./recipie_block.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml")
-var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./recipie_block.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.css")
-var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./recipie_block.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.js")
-
-$app_define$('@app-component/recipie_block', [], function($app_require$, $app_exports$, $app_module$) {
-
-$app_script$($app_module$, $app_exports$, $app_require$)
-if ($app_exports$.__esModule && $app_exports$.default) {
-$app_module$.exports = $app_exports$.default
-}
-
-$app_module$.exports.template = $app_template$
-
-$app_module$.exports.style = $app_style$
-
-})
-$app_bootstrap$('@app-component/recipie_block',undefined,undefined)
 
 /***/ })
 

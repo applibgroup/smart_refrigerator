@@ -81,15 +81,89 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.hml?entry");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/index/index.hml?entry");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.css":
-/*!*************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/index/index.css ***!
-  \*************************************************************************************************************************************/
+/***/ "../../../../../git/smart_refrigerator/entry/src/main/js/default/i18n/food_remain.json":
+/*!*********************************************************************************!*\
+  !*** E:/git/smart_refrigerator/entry/src/main/js/default/i18n/food_remain.json ***!
+  \*********************************************************************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"food_name\":\"Vegetables\",\"food_percentage\":\"72%\",\"percent_color\":\"/common/images/green_range.png\"},{\"food_name\":\"Fruits\",\"food_percentage\":\"50%\",\"percent_color\":\"/common/images/violet_range.png\"},{\"food_name\":\"Meat\",\"food_percentage\":\"20%\",\"percent_color\":\"/common/images/orange_range.png\"}]");
+
+/***/ }),
+
+/***/ "../../../../../git/smart_refrigerator/entry/src/main/js/default/i18n/items.json":
+/*!***************************************************************************!*\
+  !*** E:/git/smart_refrigerator/entry/src/main/js/default/i18n/items.json ***!
+  \***************************************************************************/
+/*! exports provided: 0, 1, 2, 3, 4, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"img_path\":\"/common/images/chicken.png\",\"food_name\":\"Fresh Chicken\",\"item_weight\":\"1kg\"},{\"img_path\":\"/common/images/vegetables.png\",\"food_name\":\"Vegetables\",\"item_weight\":\"3kg\"},{\"img_path\":\"/common/images/spinach.png\",\"food_name\":\"Spinach\",\"item_weight\":\"500g\"},{\"img_path\":\"/common/images/fruits.png\",\"food_name\":\"Fruits\",\"item_weight\":\"3kg\"},{\"img_path\":\"/common/images/fruits.png\",\"food_name\":\"Milk\",\"item_weight\":\"2lts\"}]");
+
+/***/ }),
+
+/***/ "../../../../../git/smart_refrigerator/entry/src/main/js/default/i18n/music_info.json":
+/*!********************************************************************************!*\
+  !*** E:/git/smart_refrigerator/entry/src/main/js/default/i18n/music_info.json ***!
+  \********************************************************************************/
+/*! exports provided: 0, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"music_cover_image\":\"/common/images/dreams_img.png\",\"music_name\":\"Dream\",\"music_genre\":\"Romantic\"}]");
+
+/***/ }),
+
+/***/ "../../../../../git/smart_refrigerator/entry/src/main/js/default/i18n/weather_api.json":
+/*!*********************************************************************************!*\
+  !*** E:/git/smart_refrigerator/entry/src/main/js/default/i18n/weather_api.json ***!
+  \*********************************************************************************/
+/*! exports provided: 0, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"latitude\":\"28.4595\",\"longitude\":\"77.0266\",\"api_key\":\"923ad74fc3bd3e1ef01cf0b5efa898f8\"}]");
+
+/***/ }),
+
+/***/ "../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/index/index.hml?entry":
+/*!***************************************************************************************!*\
+  !*** E:/git/smart_refrigerator/entry/src/main/js/default/pages/index/index.hml?entry ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/loader.js!../recipie_block/recipie_block.hml?name=recipie-compnent */ "./lib/loader.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?name=recipie-compnent")
+__webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/loader.js!../storage_list/storage_list.hml?name=storage-list */ "./lib/loader.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?name=storage-list")
+__webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/loader.js!../percent_bar/percent_bar.hml?name=percentage-bar */ "./lib/loader.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml?name=percentage-bar")
+var $app_template$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./index.hml */ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/index/index.hml")
+var $app_style$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./index.css */ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/index/index.css")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./index.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/index/index.js")
+
+$app_define$('@app-component/index', [], function($app_require$, $app_exports$, $app_module$) {
+
+$app_script$($app_module$, $app_exports$, $app_require$)
+if ($app_exports$.__esModule && $app_exports$.default) {
+$app_module$.exports = $app_exports$.default
+}
+
+$app_module$.exports.template = $app_template$
+
+$app_module$.exports.style = $app_style$
+
+})
+$app_bootstrap$('@app-component/index',undefined,undefined)
+
+/***/ }),
+
+/***/ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/index/index.css":
+/*!**************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/index/index.css ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -203,22 +277,26 @@ module.exports = {
     "width": "210px"
   },
   ".dreams-bg": {
+    "alignSelf": "center",
     "marginTop": "18.38px",
     "height": "98.49px",
     "width": "98.49px"
   },
   ".song-name": {
+    "width": "100%",
     "height": "17px",
-    "width": "48px",
     "textAlign": "center",
     "fontSize": "15px",
     "marginTop": "6.59px"
   },
   ".song-genre": {
+    "width": "100%",
+    "textAlign": "center",
     "fontSize": "11px",
     "marginTop": "2.28px"
   },
   ".set1_sub": {
+    "marginTop": "7px",
     "flexDirection": "row",
     "alignContent": "center"
   },
@@ -262,6 +340,7 @@ module.exports = {
     "paddingBottom": "20px"
   },
   ".food-remain": {
+    "height": "30px",
     "color": "#b1b9d8",
     "marginTop": "17.56px",
     "marginLeft": "18.37px",
@@ -414,8 +493,8 @@ module.exports = {
     "marginTop": "10px",
     "alignContent": "center",
     "marginLeft": "12px",
-    "width": "100px",
-    "height": "35px"
+    "width": "100.9999999999999px",
+    "height": "36px"
   },
   ".refri-door-status-button-txt": {
     "marginTop": "10px",
@@ -430,9 +509,15 @@ module.exports = {
     "height": "160.45px",
     "width": "160.45px"
   },
+  ".toggle-txt-button": {
+    "marginTop": "28px",
+    "marginLeft": "9px",
+    "marginRight": "9px",
+    "justifyContent": "space-between",
+    "width": "100%"
+  },
   ".superfreeze-toggle": {
     "marginLeft": "9.99px",
-    "marginTop": "40px",
     "fontSize": "15px"
   },
   ".bottom-left-box": {
@@ -443,6 +528,7 @@ module.exports = {
     "width": "160.45px"
   },
   ".bottom-left-box-toggle": {
+    "textAlign": "right",
     "marginLeft": "9.99px",
     "marginTop": "40px",
     "fontSize": "15px"
@@ -468,7 +554,6 @@ module.exports = {
   },
   ".crisp-fresh-toggle": {
     "marginLeft": "9.99px",
-    "marginTop": "40px",
     "fontSize": "15px"
   },
   ".set4": {
@@ -583,10 +668,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.css":
-/*!*************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.css ***!
-  \*************************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.css ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -612,10 +697,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.css":
-/*!*****************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css ***!
-  \*****************************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -674,10 +759,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.css":
-/*!***************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/style.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css ***!
-  \***************************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css":
+/*!****************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/style.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -705,10 +790,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.hml":
-/*!****************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/index/index.hml ***!
-  \****************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/index/index.hml":
+/*!*****************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/index/index.hml ***!
+  \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -852,7 +937,7 @@ module.exports = {
                       "attr": {
                         "debugLine": "pages/index/index:19",
                         "className": "location-city",
-                        "value": function () {return this.loaction_city}
+                        "value": function () {return this.location_city}
                       },
                       "type": "text",
                       "classList": [
@@ -863,7 +948,7 @@ module.exports = {
                       "attr": {
                         "debugLine": "pages/index/index:20",
                         "className": "weather",
-                        "src": function () {return this.weather}
+                        "src": function () {return this.weather_icon}
                       },
                       "type": "image",
                       "classList": [
@@ -1003,40 +1088,67 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:38",
-                "className": "dreams-bg",
-                "src": function () {return this.dreams_img}
+                "debugLine": "pages/index/index:38"
               },
-              "type": "image",
-              "classList": [
-                "dreams-bg"
+              "type": "div",
+              "style": {
+                "flexDirection": "column",
+                "height": "150px"
+              },
+              "children": [
+                {
+                  "attr": {
+                    "debugLine": "pages/index/index:39"
+                  },
+                  "type": "list-item",
+                  "repeat": function () {return this.music_info},
+                  "style": {
+                    "flexDirection": "column"
+                  },
+                  "children": [
+                    {
+                      "attr": {
+                        "debugLine": "pages/index/index:40",
+                        "className": "dreams-bg",
+                        "src": function () {return this.$item.music_cover_image}
+                      },
+                      "type": "image",
+                      "classList": [
+                        "dreams-bg"
+                      ]
+                    },
+                    {
+                      "attr": {
+                        "debugLine": "pages/index/index:41",
+                        "className": "song-name",
+                        "value": function () {return this.$item.music_name}
+                      },
+                      "type": "text",
+                      "classList": [
+                        "song-name"
+                      ],
+                      "style": {
+                        "textAlign": "center"
+                      }
+                    },
+                    {
+                      "attr": {
+                        "debugLine": "pages/index/index:42",
+                        "className": "song-genre",
+                        "value": function () {return this.$item.music_genre}
+                      },
+                      "type": "text",
+                      "classList": [
+                        "song-genre"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:39",
-                "className": "song-name",
-                "value": function () {return this.song_name}
-              },
-              "type": "text",
-              "classList": [
-                "song-name"
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:40",
-                "className": "song-genre",
-                "value": function () {return this.song_genre}
-              },
-              "type": "text",
-              "classList": [
-                "song-genre"
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:41",
+                "debugLine": "pages/index/index:45",
                 "className": "set1_sub"
               },
               "type": "div",
@@ -1046,7 +1158,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:42",
+                    "debugLine": "pages/index/index:46",
                     "className": "shuffle",
                     "src": function () {return this.shuffle}
                   },
@@ -1057,7 +1169,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:43",
+                    "debugLine": "pages/index/index:47",
                     "className": "back",
                     "src": function () {return this.back}
                   },
@@ -1068,7 +1180,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:44",
+                    "debugLine": "pages/index/index:48",
                     "className": "play",
                     "src": function () {return this.play}
                   },
@@ -1079,7 +1191,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:45",
+                    "debugLine": "pages/index/index:49",
                     "className": "next",
                     "src": function () {return this.next}
                   },
@@ -1090,7 +1202,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:46",
+                    "debugLine": "pages/index/index:50",
                     "className": "range",
                     "src": function () {return this.range}
                   },
@@ -1105,7 +1217,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:49",
+            "debugLine": "pages/index/index:53",
             "className": "food-remaining"
           },
           "type": "div",
@@ -1118,7 +1230,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:50",
+                "debugLine": "pages/index/index:54",
                 "className": "food-remain",
                 "value": function () {return this.food_remain}
               },
@@ -1129,30 +1241,35 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:51",
-                "product_name": "Vegetables",
-                "product_percent": "72%",
-                "percent_color": function () {return this.green_range}
+                "debugLine": "pages/index/index:55"
               },
-              "type": "percentage-bar"
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:53",
-                "product_name": "Fruits",
-                "product_percent": "50%",
-                "percent_color": function () {return this.violet_range}
+              "type": "div",
+              "style": {
+                "flexDirection": "column",
+                "height": "140px",
+                "marginTop": "20px",
+                "justifyContent": "space-between"
               },
-              "type": "percentage-bar"
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:55",
-                "product_name": "Meat",
-                "product_percent": "20%",
-                "percent_color": function () {return this.orange_range}
-              },
-              "type": "percentage-bar"
+              "children": [
+                {
+                  "attr": {
+                    "debugLine": "pages/index/index:56"
+                  },
+                  "type": "list-item",
+                  "repeat": function () {return this.food_remaining},
+                  "children": [
+                    {
+                      "attr": {
+                        "debugLine": "pages/index/index:57",
+                        "product_name": function () {return this.$item.food_name},
+                        "product_percent": function () {return this.$item.food_percentage},
+                        "percent_color": function () {return this.$item.percent_color}
+                      },
+                      "type": "percentage-bar"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1160,7 +1277,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:61",
+        "debugLine": "pages/index/index:66",
         "className": "storage-settings",
         "value": function () {return this.storage_settings}
       },
@@ -1171,7 +1288,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:62",
+        "debugLine": "pages/index/index:67",
         "className": "set2"
       },
       "type": "div",
@@ -1184,7 +1301,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:63",
+            "debugLine": "pages/index/index:68",
             "className": "storage-tab"
           },
           "type": "div",
@@ -1198,7 +1315,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:64",
+                "debugLine": "pages/index/index:69",
                 "className": "your-storage-markers"
               },
               "type": "div",
@@ -1211,7 +1328,7 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:65",
+                    "debugLine": "pages/index/index:70",
                     "className": "storage-txt-1",
                     "value": function () {return this.your_storage}
                   },
@@ -1222,13 +1339,13 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:66"
+                    "debugLine": "pages/index/index:71"
                   },
                   "type": "div",
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:67",
+                        "debugLine": "pages/index/index:72",
                         "className": "view-icon",
                         "src": function () {return this.view_icon}
                       },
@@ -1239,7 +1356,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:68",
+                        "debugLine": "pages/index/index:73",
                         "className": "view-txt",
                         "value": function () {return this.view_text}
                       },
@@ -1250,7 +1367,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:69",
+                        "debugLine": "pages/index/index:74",
                         "className": "add-icon",
                         "src": function () {return this.add_icon}
                       },
@@ -1261,7 +1378,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:70",
+                        "debugLine": "pages/index/index:75",
                         "className": "add-txt",
                         "value": function () {return this.add_text}
                       },
@@ -1276,7 +1393,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:73"
+                "debugLine": "pages/index/index:78"
               },
               "type": "div",
               "style": {
@@ -1286,11 +1403,9 @@ module.exports = {
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:74",
-                    "id": "List"
+                    "debugLine": "pages/index/index:79"
                   },
                   "type": "list",
-                  "id": "List",
                   "style": {
                     "flexDirection": "row",
                     "paddingRight": "15px"
@@ -1298,53 +1413,17 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:75",
-                        "type": "common"
+                        "debugLine": "pages/index/index:80"
                       },
                       "type": "list-item",
+                      "repeat": function () {return this.st_items},
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:76",
-                            "st_item_image": function () {return this.st_item_1},
-                            "st_item_name": function () {return this.st_item_1_name},
-                            "st_item_weight": function () {return this.st_item_1_weight}
-                          },
-                          "type": "storage-list"
-                        },
-                        {
-                          "attr": {
-                            "debugLine": "pages/index/index:78",
-                            "st_item_image": function () {return this.st_item_2},
-                            "st_item_name": function () {return this.st_item_2_name},
-                            "st_item_weight": function () {return this.st_item_2_weight}
-                          },
-                          "type": "storage-list"
-                        },
-                        {
-                          "attr": {
-                            "debugLine": "pages/index/index:80",
-                            "st_item_image": function () {return this.st_item_3},
-                            "st_item_name": function () {return this.st_item_3_name},
-                            "st_item_weight": function () {return this.st_item_3_weight}
-                          },
-                          "type": "storage-list"
-                        },
-                        {
-                          "attr": {
-                            "debugLine": "pages/index/index:82",
-                            "st_item_image": function () {return this.st_item_4},
-                            "st_item_name": function () {return this.st_item_4_name},
-                            "st_item_weight": function () {return this.st_item_4_weight}
-                          },
-                          "type": "storage-list"
-                        },
-                        {
-                          "attr": {
-                            "debugLine": "pages/index/index:84",
-                            "st_item_image": function () {return this.st_item_5},
-                            "st_item_name": function () {return this.st_item_5_name},
-                            "st_item_weight": function () {return this.st_item_5_weight}
+                            "debugLine": "pages/index/index:81",
+                            "st_item_image": function () {return this.$item.img_path},
+                            "st_item_name": function () {return this.$item.food_name},
+                            "st_item_weight": function () {return this.$item.item_weight}
                           },
                           "type": "storage-list"
                         }
@@ -1358,7 +1437,7 @@ module.exports = {
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:91",
+            "debugLine": "pages/index/index:89",
             "className": "help"
           },
           "type": "div",
@@ -1372,7 +1451,7 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:92",
+                "debugLine": "pages/index/index:90",
                 "className": "audio-assist1",
                 "value": function () {return this.audio_assist1}
               },
@@ -1383,7 +1462,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:93",
+                "debugLine": "pages/index/index:91",
                 "className": "mic",
                 "src": function () {return this.microphone}
               },
@@ -1394,7 +1473,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:94",
+                "debugLine": "pages/index/index:92",
                 "className": "audio-assist2",
                 "value": function () {return this.audio_assist2}
               },
@@ -1409,7 +1488,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:98",
+        "debugLine": "pages/index/index:96",
         "className": "set3"
       },
       "type": "div",
@@ -1422,7 +1501,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:99",
+            "debugLine": "pages/index/index:97",
             "id": "List"
           },
           "type": "list",
@@ -1433,14 +1512,14 @@ module.exports = {
           "children": [
             {
               "attr": {
-                "debugLine": "pages/index/index:100",
+                "debugLine": "pages/index/index:98",
                 "type": "common"
               },
               "type": "list-item",
               "children": [
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:101",
+                    "debugLine": "pages/index/index:99",
                     "className": "refri-door"
                   },
                   "type": "div",
@@ -1454,7 +1533,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:102",
+                        "debugLine": "pages/index/index:100",
                         "className": "refri-door-text",
                         "value": function () {return this.door_text}
                       },
@@ -1465,7 +1544,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:103",
+                        "debugLine": "pages/index/index:101",
                         "className": "refri-door-status",
                         "value": function () {return this.door_status}
                       },
@@ -1476,7 +1555,7 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:104",
+                        "debugLine": "pages/index/index:102",
                         "className": "refri-door-status-button"
                       },
                       "type": "div",
@@ -1487,10 +1566,13 @@ module.exports = {
                         "backgroundImage": function () {return this.pink_button},
                         "backgroundSize": "cover"
                       },
+                      "onBubbleEvents": {
+                        "click": "door_lock_onclick"
+                      },
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:105",
+                            "debugLine": "pages/index/index:103",
                             "className": "refri-door-status-button-txt",
                             "value": function () {return this.door_status_toggle}
                           },
@@ -1505,7 +1587,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:108",
+                    "debugLine": "pages/index/index:106",
                     "className": "superfreeze"
                   },
                   "type": "div",
@@ -1518,7 +1600,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:109",
+                        "debugLine": "pages/index/index:107",
                         "className": "refri-door-text",
                         "value": "Superfreeze"
                       },
@@ -1529,13 +1611,17 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:110"
+                        "debugLine": "pages/index/index:108",
+                        "className": "toggle-txt-button"
                       },
                       "type": "div",
+                      "classList": [
+                        "toggle-txt-button"
+                      ],
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:111",
+                            "debugLine": "pages/index/index:109",
                             "className": "superfreeze-toggle",
                             "value": function () {return this.superfreeze_toggle_txt}
                           },
@@ -1543,6 +1629,16 @@ module.exports = {
                           "classList": [
                             "superfreeze-toggle"
                           ]
+                        },
+                        {
+                          "attr": {
+                            "debugLine": "pages/index/index:110",
+                            "checked": function () {return this.superfreeze_toggle_txt_bool}
+                          },
+                          "type": "switch",
+                          "events": {
+                            "change": "superfreeze_onSwitchChange"
+                          }
                         }
                       ]
                     }
@@ -1550,7 +1646,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:114",
+                    "debugLine": "pages/index/index:113",
                     "className": "bottom-left-box"
                   },
                   "type": "div",
@@ -1563,7 +1659,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:115",
+                        "debugLine": "pages/index/index:114",
                         "className": "refri-door-text",
                         "value": "Bottom Box Left"
                       },
@@ -1574,19 +1670,45 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:116"
+                        "debugLine": "pages/index/index:115"
                       },
                       "type": "div",
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:117",
-                            "className": "bottom-left-box-toggle",
-                            "value": function () {return this.bottom_box_left_toggle_text}
+                            "debugLine": "pages/index/index:116",
+                            "className": "bottom-left-box-toggle"
                           },
-                          "type": "text",
+                          "type": "select",
                           "classList": [
                             "bottom-left-box-toggle"
+                          ],
+                          "children": [
+                            {
+                              "attr": {
+                                "debugLine": "pages/index/index:117",
+                                "value": function () {return this.bottom_box_left_toggle_text},
+                                "selected": "true",
+                                "content": function () {return this.bottom_box_left_toggle_text}
+                              },
+                              "type": "option"
+                            },
+                            {
+                              "attr": {
+                                "debugLine": "pages/index/index:118",
+                                "value": "Super Freeze",
+                                "content": "Super Freeze"
+                              },
+                              "type": "option"
+                            },
+                            {
+                              "attr": {
+                                "debugLine": "pages/index/index:119",
+                                "value": "Fresh",
+                                "content": "Fresh"
+                              },
+                              "type": "option"
+                            }
                           ]
                         }
                       ]
@@ -1595,7 +1717,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:120",
+                    "debugLine": "pages/index/index:123",
                     "className": "bottom-right-box"
                   },
                   "type": "div",
@@ -1608,7 +1730,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:121",
+                        "debugLine": "pages/index/index:124",
                         "className": "refri-door-text",
                         "value": "Bottom Box Right"
                       },
@@ -1619,19 +1741,45 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:122"
+                        "debugLine": "pages/index/index:125"
                       },
                       "type": "div",
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:123",
-                            "className": "bottom-right-box-toggle",
-                            "value": function () {return this.bottom_box_right_toggle_text}
+                            "debugLine": "pages/index/index:126",
+                            "className": "bottom-right-box-toggle"
                           },
-                          "type": "text",
+                          "type": "select",
                           "classList": [
                             "bottom-right-box-toggle"
+                          ],
+                          "children": [
+                            {
+                              "attr": {
+                                "debugLine": "pages/index/index:127",
+                                "value": function () {return this.bottom_box_right_toggle_text},
+                                "selected": "true",
+                                "content": function () {return this.bottom_box_right_toggle_text}
+                              },
+                              "type": "option"
+                            },
+                            {
+                              "attr": {
+                                "debugLine": "pages/index/index:128",
+                                "value": "Super Freeze",
+                                "content": "Super Freeze"
+                              },
+                              "type": "option"
+                            },
+                            {
+                              "attr": {
+                                "debugLine": "pages/index/index:129",
+                                "value": "Freeze",
+                                "content": "Freeze"
+                              },
+                              "type": "option"
+                            }
                           ]
                         }
                       ]
@@ -1640,7 +1788,7 @@ module.exports = {
                 },
                 {
                   "attr": {
-                    "debugLine": "pages/index/index:126",
+                    "debugLine": "pages/index/index:133",
                     "className": "crisp-fresh"
                   },
                   "type": "div",
@@ -1653,7 +1801,7 @@ module.exports = {
                   "children": [
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:127",
+                        "debugLine": "pages/index/index:134",
                         "className": "refri-door-text",
                         "value": "Crisp Fresh"
                       },
@@ -1664,20 +1812,34 @@ module.exports = {
                     },
                     {
                       "attr": {
-                        "debugLine": "pages/index/index:128"
+                        "debugLine": "pages/index/index:135",
+                        "className": "toggle-txt-button"
                       },
                       "type": "div",
+                      "classList": [
+                        "toggle-txt-button"
+                      ],
                       "children": [
                         {
                           "attr": {
-                            "debugLine": "pages/index/index:129",
+                            "debugLine": "pages/index/index:136",
                             "className": "crisp-fresh-toggle",
-                            "value": function () {return this.crisp_fresh_text}
+                            "value": function () {return this.crisp_fresh_toggle_txt}
                           },
                           "type": "text",
                           "classList": [
                             "crisp-fresh-toggle"
                           ]
+                        },
+                        {
+                          "attr": {
+                            "debugLine": "pages/index/index:137",
+                            "checked": function () {return this.crisp_fresh_toggle_txt_bool}
+                          },
+                          "type": "switch",
+                          "events": {
+                            "change": "crispfresh_onSwitchChange"
+                          }
                         }
                       ]
                     }
@@ -1691,7 +1853,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:136",
+        "debugLine": "pages/index/index:144",
         "className": "set4"
       },
       "type": "div",
@@ -1701,7 +1863,7 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:137",
+            "debugLine": "pages/index/index:145",
             "className": "{{dinner-text}}",
             "value": function () {return this.dinner_text}
           },
@@ -1712,7 +1874,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:140",
+        "debugLine": "pages/index/index:148",
         "className": "set5"
       },
       "type": "div",
@@ -1722,34 +1884,34 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:141",
-            "user_reaction": "true",
-            "recp_name": "Vada",
-            "recp_type": "Starters",
-            "time_recp": "30mins",
-            "recp_image": function () {return this.recp_1}
+            "debugLine": "pages/index/index:149",
+            "user_reaction": function () {return this.recp_1_user_reaction},
+            "recp_name": function () {return this.recp_1_name},
+            "recp_type": function () {return this.recp_1_type},
+            "time_recp": function () {return this.recp_1_time},
+            "recp_image": function () {return this.recp_1_image}
           },
           "type": "recipie-compnent"
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:143",
-            "user_reaction": "false",
-            "recp_name": "Meals",
-            "recp_type": "Main Course",
-            "time_recp": "45mins",
-            "recp_image": function () {return this.recp_2}
+            "debugLine": "pages/index/index:151",
+            "user_reaction": function () {return this.recp_2_user_reaction},
+            "recp_name": function () {return this.recp_2_name},
+            "recp_type": function () {return this.recp_2_type},
+            "time_recp": function () {return this.recp_2_time},
+            "recp_image": function () {return this.recp_2_image}
           },
           "type": "recipie-compnent"
         },
         {
           "attr": {
-            "debugLine": "pages/index/index:145",
-            "user_reaction": "false",
-            "recp_name": "Dosa",
-            "recp_type": "Main Course",
-            "time_recp": "15mins",
-            "recp_image": function () {return this.recp_3}
+            "debugLine": "pages/index/index:153",
+            "user_reaction": function () {return this.recp_3_user_reaction},
+            "recp_name": function () {return this.recp_3_name},
+            "recp_type": function () {return this.recp_3_type},
+            "time_recp": function () {return this.recp_3_time},
+            "recp_image": function () {return this.recp_3_image}
           },
           "type": "recipie-compnent"
         }
@@ -1757,7 +1919,7 @@ module.exports = {
     },
     {
       "attr": {
-        "debugLine": "pages/index/index:150",
+        "debugLine": "pages/index/index:158",
         "className": "set6"
       },
       "type": "div",
@@ -1771,72 +1933,6 @@ module.exports = {
       "children": [
         {
           "attr": {
-            "debugLine": "pages/index/index:151"
-          },
-          "type": "div",
-          "style": {
-            "flexDirection": "column"
-          },
-          "children": [
-            {
-              "attr": {
-                "debugLine": "pages/index/index:152",
-                "className": "home-icon",
-                "src": function () {return this.home_icon}
-              },
-              "type": "image",
-              "classList": [
-                "home-icon"
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:153",
-                "className": "home-txt",
-                "value": function () {return this.home_txt}
-              },
-              "type": "text",
-              "classList": [
-                "home-txt"
-              ]
-            }
-          ]
-        },
-        {
-          "attr": {
-            "debugLine": "pages/index/index:155"
-          },
-          "type": "div",
-          "style": {
-            "flexDirection": "column"
-          },
-          "children": [
-            {
-              "attr": {
-                "debugLine": "pages/index/index:156",
-                "className": "storage-icon",
-                "src": function () {return this.storage_icon}
-              },
-              "type": "image",
-              "classList": [
-                "storage-icon"
-              ]
-            },
-            {
-              "attr": {
-                "debugLine": "pages/index/index:157",
-                "className": "storage-txt",
-                "value": function () {return this.storage_txt}
-              },
-              "type": "text",
-              "classList": [
-                "storage-txt"
-              ]
-            }
-          ]
-        },
-        {
-          "attr": {
             "debugLine": "pages/index/index:159"
           },
           "type": "div",
@@ -1847,23 +1943,23 @@ module.exports = {
             {
               "attr": {
                 "debugLine": "pages/index/index:160",
-                "className": "music-icon",
-                "src": function () {return this.music_icon}
+                "className": "home-icon",
+                "src": function () {return this.home_icon}
               },
               "type": "image",
               "classList": [
-                "music-icon"
+                "home-icon"
               ]
             },
             {
               "attr": {
                 "debugLine": "pages/index/index:161",
-                "className": "music-txt",
-                "value": function () {return this.music_txt}
+                "className": "home-txt",
+                "value": function () {return this.home_txt}
               },
               "type": "text",
               "classList": [
-                "music-txt"
+                "home-txt"
               ]
             }
           ]
@@ -1880,6 +1976,72 @@ module.exports = {
             {
               "attr": {
                 "debugLine": "pages/index/index:164",
+                "className": "storage-icon",
+                "src": function () {return this.storage_icon}
+              },
+              "type": "image",
+              "classList": [
+                "storage-icon"
+              ]
+            },
+            {
+              "attr": {
+                "debugLine": "pages/index/index:165",
+                "className": "storage-txt",
+                "value": function () {return this.storage_txt}
+              },
+              "type": "text",
+              "classList": [
+                "storage-txt"
+              ]
+            }
+          ]
+        },
+        {
+          "attr": {
+            "debugLine": "pages/index/index:167"
+          },
+          "type": "div",
+          "style": {
+            "flexDirection": "column"
+          },
+          "children": [
+            {
+              "attr": {
+                "debugLine": "pages/index/index:168",
+                "className": "music-icon",
+                "src": function () {return this.music_icon}
+              },
+              "type": "image",
+              "classList": [
+                "music-icon"
+              ]
+            },
+            {
+              "attr": {
+                "debugLine": "pages/index/index:169",
+                "className": "music-txt",
+                "value": function () {return this.music_txt}
+              },
+              "type": "text",
+              "classList": [
+                "music-txt"
+              ]
+            }
+          ]
+        },
+        {
+          "attr": {
+            "debugLine": "pages/index/index:171"
+          },
+          "type": "div",
+          "style": {
+            "flexDirection": "column"
+          },
+          "children": [
+            {
+              "attr": {
+                "debugLine": "pages/index/index:172",
                 "className": "settings-icon",
                 "src": function () {return this.settings_icon}
               },
@@ -1890,7 +2052,7 @@ module.exports = {
             },
             {
               "attr": {
-                "debugLine": "pages/index/index:165",
+                "debugLine": "pages/index/index:173",
                 "className": "settings-txt",
                 "value": function () {return this.settings_txt}
               },
@@ -1908,10 +2070,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.hml":
-/*!****************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml ***!
-  \****************************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml":
+/*!*****************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1988,10 +2150,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml":
-/*!********************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml ***!
-  \********************************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml":
+/*!*********************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2038,7 +2200,10 @@ module.exports = {
           "type": "image",
           "classList": [
             "recp-img-fav"
-          ]
+          ],
+          "onBubbleEvents": {
+            "click": "user_reaction_listner"
+          }
         }
       ]
     },
@@ -2114,10 +2279,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml":
-/*!******************************************************************************************************************************************************!*\
-  !*** ./lib/json.js!./lib/template.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml ***!
-  \******************************************************************************************************************************************************/
+/***/ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml":
+/*!*******************************************************************************************************************************!*\
+  !*** ./lib/json.js!./lib/template.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2173,16 +2338,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.hml?name=percentage-bar":
-/*!********************************************************************************************************************************************************!*\
-  !*** ./lib/loader.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml?name=percentage-bar ***!
-  \********************************************************************************************************************************************************/
+/***/ "./lib/loader.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml?name=percentage-bar":
+/*!*********************************************************************************************************************************!*\
+  !*** ./lib/loader.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml?name=percentage-bar ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./percent_bar.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.hml")
-var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./percent_bar.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.css")
-var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./percent_bar.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.js")
+var $app_template$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./percent_bar.hml */ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.hml")
+var $app_style$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./percent_bar.css */ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.css")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./percent_bar.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.js")
 
 $app_define$('@app-component/percentage-bar', [], function($app_require$, $app_exports$, $app_module$) {
 
@@ -2200,16 +2365,16 @@ $app_module$.exports.style = $app_style$
 
 /***/ }),
 
-/***/ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml?name=recipie-compnent":
-/*!**************************************************************************************************************************************************************!*\
-  !*** ./lib/loader.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?name=recipie-compnent ***!
-  \**************************************************************************************************************************************************************/
+/***/ "./lib/loader.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?name=recipie-compnent":
+/*!***************************************************************************************************************************************!*\
+  !*** ./lib/loader.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml?name=recipie-compnent ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./recipie_block.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml")
-var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./recipie_block.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.css")
-var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./recipie_block.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.js")
+var $app_template$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./recipie_block.hml */ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.hml")
+var $app_style$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./recipie_block.css */ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.css")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./recipie_block.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js")
 
 $app_define$('@app-component/recipie-compnent', [], function($app_require$, $app_exports$, $app_module$) {
 
@@ -2227,16 +2392,16 @@ $app_module$.exports.style = $app_style$
 
 /***/ }),
 
-/***/ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml?name=storage-list":
-/*!********************************************************************************************************************************************************!*\
-  !*** ./lib/loader.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?name=storage-list ***!
-  \********************************************************************************************************************************************************/
+/***/ "./lib/loader.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?name=storage-list":
+/*!*********************************************************************************************************************************!*\
+  !*** ./lib/loader.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml?name=storage-list ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./storage_list.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml")
-var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./storage_list.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.css")
-var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./storage_list.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.js")
+var $app_template$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/template.js!./storage_list.hml */ "./lib/json.js!./lib/template.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.hml")
+var $app_style$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/json.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/style.js!./storage_list.css */ "./lib/json.js!./lib/style.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.css")
+var $app_script$ = __webpack_require__(/*! !../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/script.js!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!../../../../../../../../../sdk/js/2.2.0.3/build-tools/ace-loader/lib/resource-reference-script.js!./storage_list.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js")
 
 $app_define$('@app-component/storage-list', [], function($app_require$, $app_exports$, $app_module$) {
 
@@ -2254,19 +2419,34 @@ $app_module$.exports.style = $app_style$
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.js":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/index/index.js ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/index/index.js":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/index/index.js ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function(module, exports, $app_require$){"use strict";
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
+
+var _newArrowCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/newArrowCheck */ "./node_modules/@babel/runtime/helpers/newArrowCheck.js"));
+
+var _system = _interopRequireDefault(requireModule("@system.fetch"));
+
+var _items = _interopRequireDefault(__webpack_require__(/*! ../../i18n/items.json */ "../../../../../git/smart_refrigerator/entry/src/main/js/default/i18n/items.json"));
+
+var _food_remain = _interopRequireDefault(__webpack_require__(/*! ../../i18n/food_remain.json */ "../../../../../git/smart_refrigerator/entry/src/main/js/default/i18n/food_remain.json"));
+
+var _music_info = _interopRequireDefault(__webpack_require__(/*! ../../i18n/music_info.json */ "../../../../../git/smart_refrigerator/entry/src/main/js/default/i18n/music_info.json"));
+
+var _weather_api = _interopRequireDefault(__webpack_require__(/*! ../../i18n/weather_api.json */ "../../../../../git/smart_refrigerator/entry/src/main/js/default/i18n/weather_api.json"));
+
 var _default = {
   data: {
     bg: "/common/images/bg.png",
@@ -2274,7 +2454,6 @@ var _default = {
     apps: "/common/images/apps.png",
     lock: "/common/images/lock.png",
     location: '/common/images/location.png',
-    weather: '/common/images/weather.png',
     scroll_inactive: '/common/images/scroll_inactive.png',
     time_bg: "/common/images/time_bg.png",
     music_bg: "/common/images/music_bg.png",
@@ -2283,20 +2462,13 @@ var _default = {
     refrigerator_doors_bg: "/common/images/refrigerator_doors_bg.png",
     recepie_bg: "/common/images/recepie_bg.png",
     bottom_tab_bg: "/common/images/bottom_tab_bg.png",
-    dreams_img: '/common/images/dreams_img.png',
     shuffle: '/common/images/shuffle.png',
     back: '/common/images/back.png',
     play: '/common/images/play.png',
     next: '/common/images/next.png',
     range: '/common/images/range.png',
     vegetables_range_white: '/common/images/vegetables_range_white.png',
-    green_range: '/common/images/green_range.png',
-    orange_range: '/common/images/orange_range.png',
-    violet_range: '/common/images/violet_range.png',
     microphone: '/common/images/microphone.png',
-    recp_1: '/common/images/vada.png',
-    recp_2: '/common/images/meals.png',
-    recp_3: '/common/images/dosa.png',
     clock: '/common/images/clock.png',
     favourite_active: '/common/images/favourite_active.png',
     favourite_inactive: '/common/images/favourite_inactive.png',
@@ -2306,22 +2478,10 @@ var _default = {
     settings_icon: '/common/images/settings.png',
     view_icon: '/common/images/view_icon.png',
     add_icon: '/common/images/add_icon.png',
-    st_item_1: '/common/images/chicken.png',
-    st_item_2: '/common/images/vegetables.png',
-    st_item_3: '/common/images/spinach.png',
-    st_item_4: '/common/images/fruits.png',
-    st_item_5: '/common/images/fruits.png',
     pink_button: '/common/images/pink_button.png',
-    username: 'UserName',
-    time: '10:00 PM',
-    loaction_city: "Bangalore",
-    day_date: "Wednesday, 17 Dec",
-    temp_red: "30°",
     storage_settings: 'Storage Settings',
     dinner_text: 'Dinner Recepies for you',
     all_recp_text: 'All Recepies',
-    song_name: 'Dreams',
-    song_genre: 'Romantic',
     food_remain: 'Food Remaining',
     home_txt: "Home",
     storage_txt: "Storage",
@@ -2332,23 +2492,156 @@ var _default = {
     your_storage: "Your Storage",
     view_text: "View",
     add_text: "Add",
-    st_item_1_name: "Fresh Chicken",
-    st_item_2_name: "Vegetables",
-    st_item_3_name: "Spinach",
-    st_item_4_name: "Fruits",
-    st_item_5_name: "Milk",
-    st_item_1_weight: "1kg",
-    st_item_2_weight: "3kg",
-    st_item_3_weight: "500g",
-    st_item_4_weight: "3kg",
-    st_item_5_weight: "2lts",
     door_text: "Refrigerator Doors",
+    time: "",
+    day_date: "",
+    weather_icon: '',
+    location_city: "",
+    temp_celsius: "",
+    weather_api_input: [],
+    weather_api_output: [],
+    music_info: [],
+    food_remaining: [],
+    st_items: [],
     door_status: "Locked",
     door_status_toggle: "Unlock",
-    superfreeze_toggle_txt: "Off",
+    superfreeze_toggle_txt: "On",
     bottom_box_left_toggle_text: "Freeze",
     bottom_box_right_toggle_text: "Fresh",
-    crisp_fresh_text: "Off"
+    crisp_fresh_toggle_txt: "On",
+    superfreeze_toggle_txt_bool: "",
+    crisp_fresh_toggle_txt_bool: "",
+    recp_1_image: '/common/images/vada.png',
+    recp_1_name: "Vada",
+    recp_1_time: "30 Mins",
+    recp_1_type: "Starters",
+    recp_1_user_reaction: "false",
+    recp_2_image: '/common/images/meals.png',
+    recp_2_name: "Meals",
+    recp_2_time: "45 Mins",
+    recp_2_type: "Main Course",
+    recp_2_user_reaction: "true",
+    recp_3_image: '/common/images/dosa.png',
+    recp_3_name: "Dosa",
+    recp_3_time: "15 Mins",
+    recp_3_type: "Main Course",
+    recp_3_user_reaction: "false"
+  },
+  onInit: function onInit() {
+    setInterval(this.date_time_calc, 1000);
+
+    if (this.superfreeze_toggle_txt == "On") {
+      this.superfreeze_toggle_txt_bool = "true";
+    } else {
+      this.superfreeze_toggle_txt_bool = "false";
+    }
+
+    if (this.crisp_fresh_toggle_txt == "On") {
+      this.crisp_fresh_toggle_txt_bool = "true";
+    } else {
+      this.crisp_fresh_toggle_txt_bool = "false";
+    }
+
+    this.getRecipeList(this);
+    this.getFoodRemaining(this);
+    this.music_information(this);
+    this.weather_api(this);
+  },
+  getRecipeList: function getRecipeList(e) {
+    var data = JSON.stringify(_items["default"]);
+    this.st_items = JSON.parse(data);
+  },
+  getFoodRemaining: function getFoodRemaining(e) {
+    var data2 = JSON.stringify(_food_remain["default"]);
+    this.food_remaining = JSON.parse(data2);
+  },
+  music_information: function music_information(e) {
+    var data3 = JSON.stringify(_music_info["default"]);
+    this.music_info = JSON.parse(data3);
+  },
+  weather_api: function weather_api(e) {
+    var _this = this;
+
+    var data4 = JSON.stringify(_weather_api["default"]);
+    this.weather_api_input = JSON.parse(data4);
+    var data;
+
+    _system["default"].fetch({
+      url: "https://api.openweathermap.org/data/2.5/weather?lat=" + this.weather_api_input[0].latitude + "&lon=" + this.weather_api_input[0].longitude + "&appid=" + this.weather_api_input[0].api_key,
+      responseType: "json",
+      method: 'POST',
+      success: function success(resp) {
+        console.log("hello1");
+        data = JSON.parse(resp);
+      },
+      fail: function fail(data, code) {
+        (0, _newArrowCheck2["default"])(this, _this);
+        console.log("hello2");
+        console.log("fail data: " + JSON.stringify(data) + " fail code: " + code);
+      }.bind(this),
+      complete: function complete() {
+        (0, _newArrowCheck2["default"])(this, _this);
+        console.log("hello3");
+        this.weather = data.weather.main;
+        console.log("Weather :" + data.weather.main);
+      }.bind(this)
+    });
+
+    this.weather_icon = "http://openweathermap.org/img/w/" + "50n" + ".png";
+  },
+  date_time_calc: function date_time_calc(e) {
+    var today = new Date();
+    var hr = today.getHours() + 5;
+    var min = today.getMinutes() + 30;
+    var ampm = "PM";
+
+    if (hr > 12) {
+      hr = hr - 12;
+    } else {
+      ampm = "AM";
+    }
+
+    if (min >= 60) {
+      hr = hr + 1;
+      min = min - 60;
+    }
+
+    if (min < 10) {
+      min = "0" + min;
+    }
+
+    this.time = hr + ":" + min + " " + ampm;
+    var d = new Date();
+    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var day_num = d.getDay();
+    var day = days[day_num];
+    var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
+    var month_num = d.getMonth();
+    var month = months[month_num];
+    this.day_date = day + ", " + d.getDate() + " " + month;
+  },
+  superfreeze_onSwitchChange: function superfreeze_onSwitchChange(e) {
+    if (e.checked) {
+      this.superfreeze_toggle_txt = "On";
+    } else {
+      this.superfreeze_toggle_txt = "Off";
+    }
+  },
+  crispfresh_onSwitchChange: function crispfresh_onSwitchChange(e) {
+    if (e.checked) {
+      this.crisp_fresh_toggle_txt = "On";
+    } else {
+      this.crisp_fresh_toggle_txt = "Off";
+    }
+  },
+  door_lock_onclick: function door_lock_onclick(e) {
+    if (this.door_status == "Locked") {
+      this.door_status = "Unlocked";
+      this.door_status_toggle = "Lock";
+    } else if (this.door_status == "Unlocked") {
+      this.door_status = "Locked";
+      this.door_status_toggle = "Unlock";
+    }
   }
 };
 exports["default"] = _default;
@@ -2416,10 +2709,10 @@ if (moduleOwn.data && accessors.some(function (acc) {
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.js":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.js ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.js":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/percent_bar/percent_bar.js ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2506,10 +2799,10 @@ if (moduleOwn.data && accessors.some(function (acc) {
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.js":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/recipie_block/recipie_block.js ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2540,6 +2833,15 @@ var _default = {
       this.favourite_icon = this.favourite_active;
     } else if (this.user_reaction == "false") {
       this.favourite_icon = this.favourite_inactive;
+    }
+  },
+  user_reaction_listner: function user_reaction_listner() {
+    if (this.user_reaction == "true") {
+      this.user_reaction = "false";
+      this.favourite_icon = this.favourite_inactive;
+    } else if (this.user_reaction == "false") {
+      this.user_reaction = "true";
+      this.favourite_icon = this.favourite_active;
     }
   }
 };
@@ -2608,10 +2910,10 @@ if (moduleOwn.data && accessors.some(function (acc) {
 
 /***/ }),
 
-/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.js":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!../../../../../git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./lib/script.js!./node_modules/babel-loader/lib?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!E:/git/smart_refrigerator/entry/src/main/js/default/pages/storage_list/storage_list.js ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2693,33 +2995,119 @@ if (moduleOwn.data && accessors.some(function (acc) {
 
 /***/ }),
 
-/***/ "C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.hml?entry":
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/sahil/DevEcoStudioProjects/refrigerator/entry/src/main/js/default/pages/index/index.hml?entry ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! !./lib/loader.js!../recipie_block/recipie_block.hml?name=recipie-compnent */ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\recipie_block\\recipie_block.hml?name=recipie-compnent")
-__webpack_require__(/*! !./lib/loader.js!../storage_list/storage_list.hml?name=storage-list */ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\storage_list\\storage_list.hml?name=storage-list")
-__webpack_require__(/*! !./lib/loader.js!../percent_bar/percent_bar.hml?name=percentage-bar */ "./lib/loader.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\percent_bar\\percent_bar.hml?name=percentage-bar")
-var $app_template$ = __webpack_require__(/*! !./lib/json.js!./lib/template.js!./index.hml */ "./lib/json.js!./lib/template.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.hml")
-var $app_style$ = __webpack_require__(/*! !./lib/json.js!./lib/style.js!./index.css */ "./lib/json.js!./lib/style.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.css")
-var $app_script$ = __webpack_require__(/*! !./lib/script.js!./node_modules/babel-loader?presets[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/preset-env&plugins[]=E:/sdk/js/2.2.0.3/build-tools/ace-loader/node_modules/@babel/plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!./index.js */ "./lib/script.js!./node_modules/babel-loader/lib/index.js?presets[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\preset-env&plugins[]=E:\\sdk\\js\\2.2.0.3\\build-tools\\ace-loader\\node_modules\\@babel\\plugin-transform-modules-commonjs&comments=false!./lib/resource-reference-script.js!C:\\Users\\sahil\\DevEcoStudioProjects\\refrigerator\\entry\\src\\main\\js\\default\\pages\\index\\index.js")
+"use strict";
 
-$app_define$('@app-component/index', [], function($app_require$, $app_exports$, $app_module$) {
 
-$app_script$($app_module$, $app_exports$, $app_require$)
-if ($app_exports$.__esModule && $app_exports$.default) {
-$app_module$.exports = $app_exports$.default
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
 }
 
-$app_module$.exports.template = $app_template$
+module.exports = _interopRequireDefault;
 
-$app_module$.exports.style = $app_style$
+function requireModule(moduleName) {
+  const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
+  'system.image', 'system.device', 'system.mediaquery', 'ohos.animator', 'system.grid', 'system.resource']
+  var target = ''
+  if (systemList.includes(moduleName.replace('@', ''))) {
+    target = $app_require$('@app-module/' + moduleName.substring(1));
+    return target;
+  }
+  var shortName = moduleName.replace(/@[^.]+.([^.]+)/, '$1');
+  if (typeof ohosplugin !== 'undefined' && /@ohos/.test(moduleName)) {
+    target = ohosplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  if (typeof systemplugin !== 'undefined') {
+    target = systemplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  target = requireNapi(shortName);
+  return target;
+}
 
-})
-$app_bootstrap$('@app-component/index',undefined,undefined)
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/newArrowCheck.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/newArrowCheck.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _newArrowCheck(innerThis, boundThis) {
+  if (innerThis !== boundThis) {
+    throw new TypeError("Cannot instantiate an arrow function");
+  }
+}
+
+module.exports = _newArrowCheck;
+
+function requireModule(moduleName) {
+  const systemList = ['system.router', 'system.app', 'system.prompt', 'system.configuration',
+  'system.image', 'system.device', 'system.mediaquery', 'ohos.animator', 'system.grid', 'system.resource']
+  var target = ''
+  if (systemList.includes(moduleName.replace('@', ''))) {
+    target = $app_require$('@app-module/' + moduleName.substring(1));
+    return target;
+  }
+  var shortName = moduleName.replace(/@[^.]+.([^.]+)/, '$1');
+  if (typeof ohosplugin !== 'undefined' && /@ohos/.test(moduleName)) {
+    target = ohosplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  if (typeof systemplugin !== 'undefined') {
+    target = systemplugin;
+    for (let key of shortName.split('.')) {
+      target = target[key];
+      if(!target) {
+        break;
+      }
+    }
+    if (typeof target !== 'undefined') {
+      return target;
+    }
+  }
+  target = requireNapi(shortName);
+  return target;
+}
+
 
 /***/ })
 
