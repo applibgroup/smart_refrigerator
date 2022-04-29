@@ -17,7 +17,7 @@
                 <image class="location-icon" src="{{location}}"/>
                 <div style="width: 160px; justify-content: space-between; ">
                     <text class="location-city">{{location_city}}</text>
-                    <image class="weather" src="{{weather}}"></image>
+                    <image class="weather" src="{{weather_icon}}"></image>
                 </div>
             </div>
             <text class="time-txt">{{time}}</text>

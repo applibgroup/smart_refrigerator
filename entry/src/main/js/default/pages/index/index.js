@@ -1,7 +1,9 @@
 // @ts-nocheck
+import fetch from '@system.fetch';
 import items from '../../i18n/items.json';
 import item2 from '../../i18n/food_remain.json';
 import item3 from '../../i18n/music_info.json';
+import item4 from '../../i18n/weather_api.json';
 export default {
     data: {
         //      I M A G E S
@@ -10,7 +12,6 @@ export default {
         apps: "/common/images/apps.png",
         lock: "/common/images/lock.png",
         location: '/common/images/location.png',
-        weather: '/common/images/weather.png',
         scroll_inactive: '/common/images/scroll_inactive.png',
         time_bg: "/common/images/time_bg.png",
         music_bg: "/common/images/music_bg.png",
@@ -56,15 +57,18 @@ export default {
         day_date:"",
 
         //      Device Details
-        username: 'UserName',
-        location_city:"Bangalore",
-        //day_date:"Wednesday, 17 Dec",
-        temp_red:"30°",
+        //username: 'UserName',
+        //location_city:"Bangalore",
+        //temp_red:"30°",
+        //weather_icon: '/common/images/weather.png',
+        weather_icon: '',
+        location_city:"",
+        temp_celsius:"",
+        weather_api_input:[],
+        weather_api_output:[],
 
         //      Music Information
-//        music_cover_image:'/common/images/dreams_img.png',
-//        song_name: 'Dreams',
-//        song_genre: 'Romantic',
+
         music_info:[],
 
         //      Food Remaining tab
@@ -126,23 +130,58 @@ export default {
         this.getRecipeList(this);
         this.getFoodRemaining(this);
         this.music_information(this);
+        this.weather_api(this)
     },
 
     getRecipeList(e){
         var data = JSON.stringify(items);
         this.st_items = JSON.parse(data);
-        console.log(this.st_items);
+        //console.log(this.st_items);
 
     },
     getFoodRemaining(e){
         var data2 = JSON.stringify(item2);
         this.food_remaining = JSON.parse(data2);
-        console.log(this.food_remaining);
+        //console.log(this.food_remaining);
     },
     music_information(e){
         var data3 = JSON.stringify(item3);
         this.music_info = JSON.parse(data3);
-        console.log(this.music_info);
+        //console.log(this.music_info);
+    },
+    weather_api(e){
+        var data4 = JSON.stringify(item4);
+        this.weather_api_input = JSON.parse(data4);
+        //console.log(this.weather_api_input[0].api_key);
+        //const url =  "https://api.openweathermap.org/data/2.5/weather?lat="+this.weather_api_input[0].latitude+"&lon="+this.weather_api_input[0].longitude+"&appid="+this.weather_api_input[0].api_key;
+        //console.log(url);
+
+        let data;
+        fetch.fetch({
+            url :  "https://api.openweathermap.org/data/2.5/weather?lat="+this.weather_api_input[0].latitude+"&lon="+this.weather_api_input[0].longitude+"&appid="+this.weather_api_input[0].api_key,
+            responseType:"json",
+            method: 'GET',
+            success:function(resp)
+            {
+                console.log("hello0 "+url)
+                data = JSON.parse(resp);
+                console.log("hello1 "+url)
+            },
+            fail:(data,code) => {
+                console.log("hello2 "+url)
+                console.log("fail data: "+ JSON.stringify(data) + " fail code: "+ code );
+            },
+            complete: ()=>{
+                console.log("hello3")
+                this.weather = data.weather.main ;
+                console.log("Weather :"+data.weather.main)
+            }
+        })
+
+        //console.log(this.weather_api_output);
+
+        this.weather_icon = "http://openweathermap.org/img/w/"+"50n"+".png";
+
     },
 
     date_time_calc(e){
